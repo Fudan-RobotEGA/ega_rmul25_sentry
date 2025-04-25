@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating serial_setting.egg-info
+writing serial_setting.egg-info/PKG-INFO
+writing dependency_links to serial_setting.egg-info/dependency_links.txt
+writing entry points to serial_setting.egg-info/entry_points.txt
+writing requirements to serial_setting.egg-info/requires.txt
+writing top-level names to serial_setting.egg-info/top_level.txt
+writing manifest file 'serial_setting.egg-info/SOURCES.txt'
+reading manifest file 'serial_setting.egg-info/SOURCES.txt'
+writing manifest file 'serial_setting.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robotega/heaven_slam/install/serial_setting/lib/python3.10/site-packages/serial-setting.egg-link (link to .)
+Installing yaw_data_get script to /home/robotega/heaven_slam/install/serial_setting/lib/serial_setting
+
+Installed /home/robotega/heaven_slam/build/serial_setting
+running symlink_data
+creating /home/robotega/heaven_slam/install/serial_setting/share/ament_index
+creating /home/robotega/heaven_slam/install/serial_setting/share/ament_index/resource_index
+creating /home/robotega/heaven_slam/install/serial_setting/share/ament_index/resource_index/packages
+symbolically linking /home/robotega/heaven_slam/build/serial_setting/resource/serial_setting -> /home/robotega/heaven_slam/install/serial_setting/share/ament_index/resource_index/packages
+symbolically linking /home/robotega/heaven_slam/build/serial_setting/package.xml -> /home/robotega/heaven_slam/install/serial_setting/share/serial_setting
+creating /home/robotega/heaven_slam/install/serial_setting/share/serial_setting/config
+symbolically linking /home/robotega/heaven_slam/build/serial_setting/config/serial_paras.yaml -> /home/robotega/heaven_slam/install/serial_setting/share/serial_setting/config

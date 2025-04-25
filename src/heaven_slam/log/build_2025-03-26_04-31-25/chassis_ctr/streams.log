@@ -1,0 +1,32 @@
+[1.319s] Invoking command in '/home/robotega/heaven_slam/build/chassis_ctr': PYTHONPATH=/home/robotega/heaven_slam/build/chassis_ctr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotega/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robotega/heaven_slam/build/chassis_ctr/build --no-deps symlink_data
+[1.850s] running develop
+[2.194s] running egg_info
+[2.195s] creating chassis_ctr.egg-info
+[2.195s] writing chassis_ctr.egg-info/PKG-INFO
+[2.195s] writing dependency_links to chassis_ctr.egg-info/dependency_links.txt
+[2.196s] writing entry points to chassis_ctr.egg-info/entry_points.txt
+[2.196s] writing requirements to chassis_ctr.egg-info/requires.txt
+[2.196s] writing top-level names to chassis_ctr.egg-info/top_level.txt
+[2.196s] writing manifest file 'chassis_ctr.egg-info/SOURCES.txt'
+[2.200s] reading manifest file 'chassis_ctr.egg-info/SOURCES.txt'
+[2.202s] writing manifest file 'chassis_ctr.egg-info/SOURCES.txt'
+[2.205s] running build_ext
+[2.205s] Creating /home/robotega/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages/chassis-ctr.egg-link (link to .)
+[2.207s] Installing chassis_ctr_test_node script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.207s] Installing cmd_vel_converter script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.208s] Installing go_to_pose script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.208s] Installing heaven_nav_client script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.208s] Installing sentry_ctr script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.208s] Installing vel_test_node script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.209s] 
+[2.209s] Installed /home/robotega/heaven_slam/build/chassis_ctr
+[2.209s] running symlink_data
+[2.209s] creating /home/robotega/heaven_slam/install/chassis_ctr/share/ament_index
+[2.209s] creating /home/robotega/heaven_slam/install/chassis_ctr/share/ament_index/resource_index
+[2.209s] creating /home/robotega/heaven_slam/install/chassis_ctr/share/ament_index/resource_index/packages
+[2.210s] symbolically linking /home/robotega/heaven_slam/build/chassis_ctr/resource/chassis_ctr -> /home/robotega/heaven_slam/install/chassis_ctr/share/ament_index/resource_index/packages
+[2.210s] symbolically linking /home/robotega/heaven_slam/build/chassis_ctr/package.xml -> /home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr
+[2.210s] creating /home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/config
+[2.210s] symbolically linking /home/robotega/heaven_slam/build/chassis_ctr/config/action_ctr_params_2.yaml -> /home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/config
+[2.210s] symbolically linking /home/robotega/heaven_slam/build/chassis_ctr/config/action_ctr_params.yaml -> /home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/config
+[2.296s] Invoked command in '/home/robotega/heaven_slam/build/chassis_ctr' returned '0': PYTHONPATH=/home/robotega/heaven_slam/build/chassis_ctr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotega/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robotega/heaven_slam/build/chassis_ctr/build --no-deps symlink_data

@@ -1,0 +1,493 @@
+[0.000000] (-) TimerEvent: {}
+[0.000675] (chassis_ctr) JobQueued: {'identifier': 'chassis_ctr', 'dependencies': OrderedDict()}
+[0.001218] (sentry_interface) JobQueued: {'identifier': 'sentry_interface', 'dependencies': OrderedDict()}
+[0.001473] (serial_setting) JobQueued: {'identifier': 'serial_setting', 'dependencies': OrderedDict([('sentry_interface', '/home/robotega/heaven_slam/install/sentry_interface')])}
+[0.001735] (sentry_interface) JobStarted: {'identifier': 'sentry_interface'}
+[0.012441] (chassis_ctr) JobStarted: {'identifier': 'chassis_ctr'}
+[0.025062] (sentry_interface) JobProgress: {'identifier': 'sentry_interface', 'progress': 'cmake'}
+[0.026026] (sentry_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/robotega/heaven_slam/src/sentry_interface', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/robotega/heaven_slam/install/sentry_interface'], 'cwd': '/home/robotega/heaven_slam/build/sentry_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'robotega'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/robotega'), ('OLDPWD', '/home/robotega'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1864'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3e690fd77b4e7e6ff76ffad067e30288'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotega'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotega'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/robotega/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sentry01:@/tmp/.ICE-unix/1864,unix/sentry01:/tmp/.ICE-unix/1864'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1eb6aeb9_e775_4270_b700_77b233627da3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotega/heaven_slam/build/sentry_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3e690fd77b4e7e6ff76ffad067e30288'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099317] (-) TimerEvent: {}
+[0.135760] (sentry_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199484] (-) TimerEvent: {}
+[0.242723] (sentry_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.262586] (sentry_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299652] (-) TimerEvent: {}
+[0.400429] (sentry_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.401036] (-) TimerEvent: {}
+[0.425159] (sentry_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.426051] (sentry_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.427409] (sentry_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.435760] (sentry_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501225] (-) TimerEvent: {}
+[0.590370] (sentry_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.601338] (-) TimerEvent: {}
+[0.607064] (sentry_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.607830] (sentry_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.608916] (sentry_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.615619] (sentry_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701475] (-) TimerEvent: {}
+[0.802036] (-) TimerEvent: {}
+[0.902591] (-) TimerEvent: {}
+[0.954594] (sentry_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.002729] (-) TimerEvent: {}
+[1.095732] (sentry_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.102806] (-) TimerEvent: {}
+[1.176513] (sentry_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.185296] (sentry_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.202979] (-) TimerEvent: {}
+[1.203500] (sentry_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.293345] (sentry_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.303101] (-) TimerEvent: {}
+[1.328136] (chassis_ctr) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/robotega/heaven_slam/build/chassis_ctr/build', '--no-deps', 'symlink_data'], 'cwd': '/home/robotega/heaven_slam/build/chassis_ctr', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7897/', 'no_proxy': 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1', 'LANGUAGE': 'zh_CN:en_US:en', 'USER': 'robotega', 'LC_TIME': 'zh_CN.UTF-8', 'all_proxy': 'socks://127.0.0.1:7897/', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib', 'HOME': '/home/robotega', 'OLDPWD': '/home/robotega', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1864', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3e690fd77b4e7e6ff76ffad067e30288', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'https_proxy': 'http://127.0.0.1:7897/', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'robotega', 'ALL_PROXY': 'socks://127.0.0.1:7897/', 'http_proxy': 'http://127.0.0.1:7897/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotega', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/robotega/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sentry01:@/tmp/.ICE-unix/1864,unix/sentry01:/tmp/.ICE-unix/1864', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1eb6aeb9_e775_4270_b700_77b233627da3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotega/heaven_slam/build/chassis_ctr', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3e690fd77b4e7e6ff76ffad067e30288', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotega/heaven_slam/build/chassis_ctr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotega/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HTTP_PROXY': 'http://127.0.0.1:7897/', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.373184] (sentry_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.403214] (-) TimerEvent: {}
+[1.503776] (-) TimerEvent: {}
+[1.604350] (-) TimerEvent: {}
+[1.704936] (-) TimerEvent: {}
+[1.805491] (-) TimerEvent: {}
+[1.861969] (chassis_ctr) StdoutLine: {'line': b'running develop\n'}
+[1.905641] (-) TimerEvent: {}
+[2.006228] (-) TimerEvent: {}
+[2.106833] (-) TimerEvent: {}
+[2.133170] (sentry_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.206755] (chassis_ctr) StdoutLine: {'line': b'running egg_info\n'}
+[2.207171] (-) TimerEvent: {}
+[2.207464] (chassis_ctr) StdoutLine: {'line': b'creating chassis_ctr.egg-info\n'}
+[2.207646] (chassis_ctr) StdoutLine: {'line': b'writing chassis_ctr.egg-info/PKG-INFO\n'}
+[2.207932] (chassis_ctr) StdoutLine: {'line': b'writing dependency_links to chassis_ctr.egg-info/dependency_links.txt\n'}
+[2.208282] (chassis_ctr) StdoutLine: {'line': b'writing entry points to chassis_ctr.egg-info/entry_points.txt\n'}
+[2.208493] (chassis_ctr) StdoutLine: {'line': b'writing requirements to chassis_ctr.egg-info/requires.txt\n'}
+[2.208680] (chassis_ctr) StdoutLine: {'line': b'writing top-level names to chassis_ctr.egg-info/top_level.txt\n'}
+[2.209104] (chassis_ctr) StdoutLine: {'line': b"writing manifest file 'chassis_ctr.egg-info/SOURCES.txt'\n"}
+[2.212812] (chassis_ctr) StdoutLine: {'line': b"reading manifest file 'chassis_ctr.egg-info/SOURCES.txt'\n"}
+[2.214191] (chassis_ctr) StdoutLine: {'line': b"writing manifest file 'chassis_ctr.egg-info/SOURCES.txt'\n"}
+[2.217262] (chassis_ctr) StdoutLine: {'line': b'running build_ext\n'}
+[2.217748] (chassis_ctr) StdoutLine: {'line': b'Creating /home/robotega/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages/chassis-ctr.egg-link (link to .)\n'}
+[2.219669] (chassis_ctr) StdoutLine: {'line': b'Installing chassis_ctr_test_node script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr\n'}
+[2.220076] (chassis_ctr) StdoutLine: {'line': b'Installing cmd_vel_converter script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr\n'}
+[2.220309] (chassis_ctr) StdoutLine: {'line': b'Installing go_to_pose script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr\n'}
+[2.220527] (chassis_ctr) StdoutLine: {'line': b'Installing heaven_nav_client script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr\n'}
+[2.220734] (chassis_ctr) StdoutLine: {'line': b'Installing sentry_ctr script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr\n'}
+[2.220931] (chassis_ctr) StdoutLine: {'line': b'Installing vel_test_node script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr\n'}
+[2.221341] (chassis_ctr) StdoutLine: {'line': b'\n'}
+[2.221508] (chassis_ctr) StdoutLine: {'line': b'Installed /home/robotega/heaven_slam/build/chassis_ctr\n'}
+[2.221642] (chassis_ctr) StdoutLine: {'line': b'running symlink_data\n'}
+[2.221791] (chassis_ctr) StdoutLine: {'line': b'creating /home/robotega/heaven_slam/install/chassis_ctr/share/ament_index\n'}
+[2.221996] (chassis_ctr) StdoutLine: {'line': b'creating /home/robotega/heaven_slam/install/chassis_ctr/share/ament_index/resource_index\n'}
+[2.222120] (chassis_ctr) StdoutLine: {'line': b'creating /home/robotega/heaven_slam/install/chassis_ctr/share/ament_index/resource_index/packages\n'}
+[2.222300] (chassis_ctr) StdoutLine: {'line': b'symbolically linking /home/robotega/heaven_slam/build/chassis_ctr/resource/chassis_ctr -> /home/robotega/heaven_slam/install/chassis_ctr/share/ament_index/resource_index/packages\n'}
+[2.222475] (chassis_ctr) StdoutLine: {'line': b'symbolically linking /home/robotega/heaven_slam/build/chassis_ctr/package.xml -> /home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr\n'}
+[2.222686] (chassis_ctr) StdoutLine: {'line': b'creating /home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/config\n'}
+[2.222811] (chassis_ctr) StdoutLine: {'line': b'symbolically linking /home/robotega/heaven_slam/build/chassis_ctr/config/action_ctr_params_2.yaml -> /home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/config\n'}
+[2.222962] (chassis_ctr) StdoutLine: {'line': b'symbolically linking /home/robotega/heaven_slam/build/chassis_ctr/config/action_ctr_params.yaml -> /home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/config\n'}
+[2.306286] (chassis_ctr) CommandEnded: {'returncode': 0}
+[2.308961] (-) TimerEvent: {}
+[2.350140] (chassis_ctr) JobEnded: {'identifier': 'chassis_ctr', 'rc': 0}
+[2.409189] (-) TimerEvent: {}
+[2.509923] (-) TimerEvent: {}
+[2.599167] (sentry_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.610034] (-) TimerEvent: {}
+[2.710700] (-) TimerEvent: {}
+[2.811431] (-) TimerEvent: {}
+[2.912078] (-) TimerEvent: {}
+[3.012818] (-) TimerEvent: {}
+[3.113435] (-) TimerEvent: {}
+[3.172952] (sentry_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.213580] (-) TimerEvent: {}
+[3.228782] (sentry_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.234228] (sentry_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.297568] (sentry_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.298213] (sentry_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.298483] (sentry_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.298757] (sentry_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[3.313762] (-) TimerEvent: {}
+[3.347292] (sentry_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.413960] (-) TimerEvent: {}
+[3.456250] (sentry_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.514133] (-) TimerEvent: {}
+[3.514824] (sentry_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.517120] (sentry_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.525552] (sentry_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.597072] (sentry_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[3.614304] (-) TimerEvent: {}
+[3.620250] (sentry_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/robotega/heaven_slam/build/sentry_interface\n'}
+[3.644778] (sentry_interface) CommandEnded: {'returncode': 0}
+[3.646410] (sentry_interface) JobProgress: {'identifier': 'sentry_interface', 'progress': 'build'}
+[3.648852] (sentry_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotega/heaven_slam/build/sentry_interface', '--', '-j8', '-l8'], 'cwd': '/home/robotega/heaven_slam/build/sentry_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'robotega'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/robotega'), ('OLDPWD', '/home/robotega'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1864'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3e690fd77b4e7e6ff76ffad067e30288'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotega'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotega'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/robotega/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sentry01:@/tmp/.ICE-unix/1864,unix/sentry01:/tmp/.ICE-unix/1864'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1eb6aeb9_e775_4270_b700_77b233627da3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotega/heaven_slam/build/sentry_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3e690fd77b4e7e6ff76ffad067e30288'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.714555] (-) TimerEvent: {}
+[3.733003] (sentry_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.752394] (sentry_interface) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.767982] (sentry_interface) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_sentry_interface\n'}
+[3.814694] (-) TimerEvent: {}
+[3.915290] (-) TimerEvent: {}
+[4.015871] (-) TimerEvent: {}
+[4.116468] (-) TimerEvent: {}
+[4.217041] (-) TimerEvent: {}
+[4.275941] (sentry_interface) StdoutLine: {'line': b'running egg_info\n'}
+[4.277183] (sentry_interface) StdoutLine: {'line': b'creating sentry_interface.egg-info\n'}
+[4.277662] (sentry_interface) StdoutLine: {'line': b'writing sentry_interface.egg-info/PKG-INFO\n'}
+[4.278074] (sentry_interface) StdoutLine: {'line': b'writing dependency_links to sentry_interface.egg-info/dependency_links.txt\n'}
+[4.278423] (sentry_interface) StdoutLine: {'line': b'writing top-level names to sentry_interface.egg-info/top_level.txt\n'}
+[4.278973] (sentry_interface) StdoutLine: {'line': b"writing manifest file 'sentry_interface.egg-info/SOURCES.txt'\n"}
+[4.283000] (sentry_interface) StdoutLine: {'line': b"reading manifest file 'sentry_interface.egg-info/SOURCES.txt'\n"}
+[4.284024] (sentry_interface) StdoutLine: {'line': b"writing manifest file 'sentry_interface.egg-info/SOURCES.txt'\n"}
+[4.317184] (-) TimerEvent: {}
+[4.355864] (sentry_interface) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_sentry_interface_egg\n'}
+[4.417319] (-) TimerEvent: {}
+[4.517910] (-) TimerEvent: {}
+[4.618524] (-) TimerEvent: {}
+[4.719103] (-) TimerEvent: {}
+[4.819661] (-) TimerEvent: {}
+[4.920217] (-) TimerEvent: {}
+[5.020764] (-) TimerEvent: {}
+[5.121365] (-) TimerEvent: {}
+[5.172155] (sentry_interface) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/sentry_interface__rosidl_generator_c.dir/rosidl_generator_c/sentry_interface/msg/detail/sentry_status__functions.c.o\x1b[0m\n'}
+[5.172665] (sentry_interface) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/sentry_interface__rosidl_generator_c.dir/rosidl_generator_c/sentry_interface/action/detail/action_control__functions.c.o\x1b[0m\n'}
+[5.172848] (sentry_interface) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/sentry_interface__rosidl_generator_c.dir/rosidl_generator_c/sentry_interface/msg/detail/sentry_vel__functions.c.o\x1b[0m\n'}
+[5.221576] (-) TimerEvent: {}
+[5.306821] (sentry_interface) StdoutLine: {'line': b'[ 10%] Built target sentry_interface__cpp\n'}
+[5.321754] (-) TimerEvent: {}
+[5.327523] (sentry_interface) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.327994] (sentry_interface) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.328203] (sentry_interface) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.421893] (-) TimerEvent: {}
+[5.486446] (sentry_interface) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libsentry_interface__rosidl_generator_c.so\x1b[0m\n'}
+[5.522078] (-) TimerEvent: {}
+[5.552818] (sentry_interface) StdoutLine: {'line': b'[ 19%] Built target sentry_interface__rosidl_generator_c\n'}
+[5.572316] (sentry_interface) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.572896] (sentry_interface) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.573095] (sentry_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.622241] (-) TimerEvent: {}
+[5.722883] (-) TimerEvent: {}
+[5.823504] (-) TimerEvent: {}
+[5.924120] (-) TimerEvent: {}
+[6.024740] (-) TimerEvent: {}
+[6.125367] (-) TimerEvent: {}
+[6.227013] (-) TimerEvent: {}
+[6.327618] (-) TimerEvent: {}
+[6.428251] (-) TimerEvent: {}
+[6.505789] (sentry_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_interface/msg/detail/sentry_status__type_support.cpp.o\x1b[0m\n'}
+[6.506272] (sentry_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_interface/action/detail/action_control__type_support.cpp.o\x1b[0m\n'}
+[6.513604] (sentry_interface) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_interface/msg/detail/sentry_vel__type_support.cpp.o\x1b[0m\n'}
+[6.528440] (-) TimerEvent: {}
+[6.539506] (sentry_interface) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_interface/msg/sentry_status__type_support.cpp.o\x1b[0m\n'}
+[6.628627] (-) TimerEvent: {}
+[6.633713] (sentry_interface) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_interface/msg/sentry_status__type_support.cpp.o\x1b[0m\n'}
+[6.704763] (sentry_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_interface/action/action_control__type_support.cpp.o\x1b[0m\n'}
+[6.729139] (-) TimerEvent: {}
+[6.750523] (sentry_interface) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_interface/msg/detail/dds_fastrtps/sentry_status__type_support.cpp.o\x1b[0m\n'}
+[6.820748] (sentry_interface) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_interface/msg/sentry_vel__type_support.cpp.o\x1b[0m\n'}
+[6.829339] (-) TimerEvent: {}
+[6.883547] (sentry_interface) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_interface/msg/detail/sentry_status__type_support.c.o\x1b[0m\n'}
+[6.895398] (sentry_interface) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libsentry_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.929534] (-) TimerEvent: {}
+[6.964317] (sentry_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_interface/action/detail/action_control__type_support.c.o\x1b[0m\n'}
+[6.986937] (sentry_interface) StdoutLine: {'line': b'[ 48%] Built target sentry_interface__rosidl_typesupport_c\n'}
+[7.019079] (sentry_interface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_interface/action/action_control__type_support.cpp.o\x1b[0m\n'}
+[7.029773] (-) TimerEvent: {}
+[7.042453] (sentry_interface) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_interface/msg/detail/sentry_status__type_support_c.cpp.o\x1b[0m\n'}
+[7.127273] (sentry_interface) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_interface/msg/detail/sentry_vel__type_support.c.o\x1b[0m\n'}
+[7.129911] (-) TimerEvent: {}
+[7.176369] (sentry_interface) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_interface/msg/sentry_vel__type_support.cpp.o\x1b[0m\n'}
+[7.205662] (sentry_interface) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libsentry_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.230126] (-) TimerEvent: {}
+[7.288755] (sentry_interface) StdoutLine: {'line': b'[ 59%] Built target sentry_interface__rosidl_typesupport_introspection_c\n'}
+[7.308277] (sentry_interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_interface/action/detail/dds_fastrtps/action_control__type_support.cpp.o\x1b[0m\n'}
+[7.330335] (-) TimerEvent: {}
+[7.414933] (sentry_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_interface/msg/detail/dds_fastrtps/sentry_vel__type_support.cpp.o\x1b[0m\n'}
+[7.430600] (-) TimerEvent: {}
+[7.460701] (sentry_interface) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_interface/action/detail/action_control__type_support_c.cpp.o\x1b[0m\n'}
+[7.530785] (-) TimerEvent: {}
+[7.631521] (-) TimerEvent: {}
+[7.732315] (-) TimerEvent: {}
+[7.806363] (sentry_interface) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_interface/msg/detail/sentry_vel__type_support_c.cpp.o\x1b[0m\n'}
+[7.832601] (-) TimerEvent: {}
+[7.931221] (sentry_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libsentry_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.932658] (-) TimerEvent: {}
+[8.033160] (-) TimerEvent: {}
+[8.097716] (sentry_interface) StdoutLine: {'line': b'[ 70%] Built target sentry_interface__rosidl_typesupport_introspection_cpp\n'}
+[8.133371] (-) TimerEvent: {}
+[8.234145] (-) TimerEvent: {}
+[8.306047] (sentry_interface) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libsentry_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.334325] (-) TimerEvent: {}
+[8.383762] (sentry_interface) StdoutLine: {'line': b'[ 72%] Built target sentry_interface__rosidl_typesupport_cpp\n'}
+[8.434531] (-) TimerEvent: {}
+[8.535166] (-) TimerEvent: {}
+[8.556359] (sentry_interface) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libsentry_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.635329] (-) TimerEvent: {}
+[8.684863] (sentry_interface) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libsentry_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.720074] (sentry_interface) StdoutLine: {'line': b'[ 76%] Built target sentry_interface__rosidl_typesupport_fastrtps_c\n'}
+[8.735504] (-) TimerEvent: {}
+[8.831894] (sentry_interface) StdoutLine: {'line': b'[ 76%] Built target sentry_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[8.835761] (-) TimerEvent: {}
+[8.872181] (sentry_interface) StdoutLine: {'line': b'[ 76%] Built target sentry_interface\n'}
+[8.915006] (sentry_interface) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.935948] (-) TimerEvent: {}
+[9.036699] (-) TimerEvent: {}
+[9.137373] (-) TimerEvent: {}
+[9.238023] (-) TimerEvent: {}
+[9.338797] (-) TimerEvent: {}
+[9.439488] (-) TimerEvent: {}
+[9.540253] (-) TimerEvent: {}
+[9.640891] (-) TimerEvent: {}
+[9.741677] (-) TimerEvent: {}
+[9.842438] (-) TimerEvent: {}
+[9.943181] (-) TimerEvent: {}
+[10.043890] (-) TimerEvent: {}
+[10.144649] (-) TimerEvent: {}
+[10.245510] (-) TimerEvent: {}
+[10.346341] (-) TimerEvent: {}
+[10.447120] (-) TimerEvent: {}
+[10.548008] (-) TimerEvent: {}
+[10.648803] (-) TimerEvent: {}
+[10.749634] (-) TimerEvent: {}
+[10.850496] (-) TimerEvent: {}
+[10.951300] (-) TimerEvent: {}
+[11.052107] (-) TimerEvent: {}
+[11.152887] (-) TimerEvent: {}
+[11.253765] (-) TimerEvent: {}
+[11.354725] (-) TimerEvent: {}
+[11.371362] (sentry_interface) StdoutLine: {'line': b'[ 78%] Built target sentry_interface__py\n'}
+[11.411917] (sentry_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/sentry_interface__rosidl_generator_py.dir/rosidl_generator_py/sentry_interface/msg/_sentry_vel_s.c.o\x1b[0m\n'}
+[11.412449] (sentry_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/sentry_interface__rosidl_generator_py.dir/rosidl_generator_py/sentry_interface/action/_action_control_s.c.o\x1b[0m\n'}
+[11.412725] (sentry_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/sentry_interface__rosidl_generator_py.dir/rosidl_generator_py/sentry_interface/msg/_sentry_status_s.c.o\x1b[0m\n'}
+[11.454902] (-) TimerEvent: {}
+[11.555645] (-) TimerEvent: {}
+[11.656370] (-) TimerEvent: {}
+[11.752862] (sentry_interface) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sentry_interface/libsentry_interface__rosidl_generator_py.so\x1b[0m\n'}
+[11.756474] (-) TimerEvent: {}
+[11.831670] (sentry_interface) StdoutLine: {'line': b'[ 87%] Built target sentry_interface__rosidl_generator_py\n'}
+[11.856685] (-) TimerEvent: {}
+[11.871058] (sentry_interface) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sentry_interface/_sentry_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.871550] (sentry_interface) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sentry_interface/_sentry_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.871717] (sentry_interface) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/sentry_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sentry_interface/_sentry_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.956865] (-) TimerEvent: {}
+[12.057537] (-) TimerEvent: {}
+[12.140300] (sentry_interface) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sentry_interface/sentry_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.151713] (sentry_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sentry_interface/sentry_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.152190] (sentry_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/sentry_interface/sentry_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[12.157641] (-) TimerEvent: {}
+[12.216468] (sentry_interface) StdoutLine: {'line': b'[100%] Built target sentry_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[12.232306] (sentry_interface) StdoutLine: {'line': b'[100%] Built target sentry_interface__rosidl_typesupport_c__pyext\n'}
+[12.232798] (sentry_interface) StdoutLine: {'line': b'[100%] Built target sentry_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.257863] (-) TimerEvent: {}
+[12.262748] (sentry_interface) CommandEnded: {'returncode': 0}
+[12.264896] (sentry_interface) JobProgress: {'identifier': 'sentry_interface', 'progress': 'install'}
+[12.282539] (sentry_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotega/heaven_slam/build/sentry_interface'], 'cwd': '/home/robotega/heaven_slam/build/sentry_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7897/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'robotega'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7897/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/robotega'), ('OLDPWD', '/home/robotega'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1864'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3e690fd77b4e7e6ff76ffad067e30288'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7897/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotega'), ('ALL_PROXY', 'socks://127.0.0.1:7897/'), ('http_proxy', 'http://127.0.0.1:7897/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotega'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/robotega/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sentry01:@/tmp/.ICE-unix/1864,unix/sentry01:/tmp/.ICE-unix/1864'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1eb6aeb9_e775_4270_b700_77b233627da3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotega/heaven_slam/build/sentry_interface'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3e690fd77b4e7e6ff76ffad067e30288'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7897/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.299697] (sentry_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.300429] (sentry_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.301104] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/ament_index/resource_index/rosidl_interfaces/sentry_interface\n'}
+[12.318574] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/action_control.h\n'}
+[12.334846] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__functions.h\n'}
+[12.352542] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__struct.h\n'}
+[12.358112] (-) TimerEvent: {}
+[12.369873] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__type_support.h\n'}
+[12.388034] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__functions.h\n'}
+[12.404088] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__struct.h\n'}
+[12.423124] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__type_support.h\n'}
+[12.441585] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__functions.h\n'}
+[12.458216] (-) TimerEvent: {}
+[12.460035] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__struct.h\n'}
+[12.478029] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__type_support.h\n'}
+[12.498169] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.517808] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/sentry_status.h\n'}
+[12.536250] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/sentry_vel.h\n'}
+[12.556368] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/library_path.sh\n'}
+[12.558296] (-) TimerEvent: {}
+[12.575222] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/library_path.dsv\n'}
+[12.597091] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__rosidl_typesupport_fastrtps_c.h\n'}
+[12.613594] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__rosidl_typesupport_fastrtps_c.h\n'}
+[12.633328] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__rosidl_typesupport_fastrtps_c.h\n'}
+[12.650002] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.658443] (-) TimerEvent: {}
+[12.670708] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__rosidl_typesupport_introspection_c.h\n'}
+[12.687086] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__rosidl_typesupport_introspection_c.h\n'}
+[12.704220] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__rosidl_typesupport_introspection_c.h\n'}
+[12.724414] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.742748] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/action_control.hpp\n'}
+[12.758610] (-) TimerEvent: {}
+[12.761488] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__builder.hpp\n'}
+[12.778294] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__struct.hpp\n'}
+[12.797150] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__traits.hpp\n'}
+[12.815287] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__type_support.hpp\n'}
+[12.833154] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__builder.hpp\n'}
+[12.852695] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__struct.hpp\n'}
+[12.858711] (-) TimerEvent: {}
+[12.870682] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__traits.hpp\n'}
+[12.888631] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__type_support.hpp\n'}
+[12.905883] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__builder.hpp\n'}
+[12.925886] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__struct.hpp\n'}
+[12.945158] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__traits.hpp\n'}
+[12.958850] (-) TimerEvent: {}
+[12.964581] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__type_support.hpp\n'}
+[12.982003] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.002774] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/sentry_status.hpp\n'}
+[13.019641] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/sentry_vel.hpp\n'}
+[13.038662] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.054664] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.058945] (-) TimerEvent: {}
+[13.073305] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.091247] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.112450] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.130872] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.147815] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.159117] (-) TimerEvent: {}
+[13.166415] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/pythonpath.sh\n'}
+[13.184752] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/pythonpath.dsv\n'}
+[13.203614] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[13.222334] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[13.239280] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[13.256288] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[13.259205] (-) TimerEvent: {}
+[13.276439] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/__init__.py\n'}
+[13.296028] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/_sentry_interface_s.ep.rosidl_typesupport_c.c\n'}
+[13.313115] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/_sentry_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.331400] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/_sentry_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.348785] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/action/__init__.py\n'}
+[13.359337] (-) TimerEvent: {}
+[13.366603] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/action/_action_control.py\n'}
+[13.383398] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/action/_action_control_s.c\n'}
+[13.401705] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/libsentry_interface__rosidl_generator_py.so\n'}
+[13.419023] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/__init__.py\n'}
+[13.435909] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/_sentry_status.py\n'}
+[13.453141] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/_sentry_status_s.c\n'}
+[13.459431] (-) TimerEvent: {}
+[13.472490] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/_sentry_vel.py\n'}
+[13.490290] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/_sentry_vel_s.c\n'}
+[13.507828] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/sentry_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.526972] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/sentry_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.544845] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/sentry_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.559624] (-) TimerEvent: {}
+[13.563044] (sentry_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/sentry_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.564217] (sentry_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/sentry_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.565167] (sentry_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/sentry_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[13.566034] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/msg/SentryStatus.idl\n'}
+[13.585357] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/action/ActionControl.idl\n'}
+[13.603116] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/msg/SentryVel.idl\n'}
+[13.621270] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/msg/SentryStatus.msg\n'}
+[13.638882] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/action/ActionControl.action\n'}
+[13.657416] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/msg/SentryVel.msg\n'}
+[13.659715] (-) TimerEvent: {}
+[13.675572] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/ament_index/resource_index/package_run_dependencies/sentry_interface\n'}
+[13.692957] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/ament_index/resource_index/parent_prefix_path/sentry_interface\n'}
+[13.710612] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/ament_prefix_path.sh\n'}
+[13.728793] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/ament_prefix_path.dsv\n'}
+[13.745785] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/path.sh\n'}
+[13.759890] (-) TimerEvent: {}
+[13.764582] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/path.dsv\n'}
+[13.781858] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/local_setup.bash\n'}
+[13.801269] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/local_setup.sh\n'}
+[13.820580] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/local_setup.zsh\n'}
+[13.837394] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/local_setup.dsv\n'}
+[13.855536] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.dsv\n'}
+[13.859984] (-) TimerEvent: {}
+[13.874084] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/ament_index/resource_index/packages/sentry_interface\n'}
+[13.892599] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[13.910765] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.930172] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.947785] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.960147] (-) TimerEvent: {}
+[13.965961] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.983295] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.002351] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.021080] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interfaceConfig.cmake\n'}
+[14.038788] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interfaceConfig-version.cmake\n'}
+[14.056945] (sentry_interface) StdoutLine: {'line': b'-- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.xml\n'}
+[14.060276] (-) TimerEvent: {}
+[14.074873] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_generator_c.so\n'}
+[14.076791] (sentry_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_generator_c.so" to ""\n'}
+[14.077232] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[14.078378] (sentry_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.079053] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_introspection_c.so\n'}
+[14.080054] (sentry_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.080423] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_c.so\n'}
+[14.081430] (sentry_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_c.so" to ""\n'}
+[14.081750] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.083097] (sentry_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.083449] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[14.084744] (sentry_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.085120] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_cpp.so\n'}
+[14.086185] (sentry_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[14.160469] (-) TimerEvent: {}
+[14.175523] (sentry_interface) StdoutLine: {'line': b"Listing '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface'...\n"}
+[14.176025] (sentry_interface) StdoutLine: {'line': b"Compiling '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/__init__.py'...\n"}
+[14.176305] (sentry_interface) StdoutLine: {'line': b"Listing '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/action'...\n"}
+[14.176552] (sentry_interface) StdoutLine: {'line': b"Compiling '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/action/__init__.py'...\n"}
+[14.176787] (sentry_interface) StdoutLine: {'line': b"Compiling '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/action/_action_control.py'...\n"}
+[14.177015] (sentry_interface) StdoutLine: {'line': b"Listing '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg'...\n"}
+[14.177238] (sentry_interface) StdoutLine: {'line': b"Compiling '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/__init__.py'...\n"}
+[14.177456] (sentry_interface) StdoutLine: {'line': b"Compiling '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/_sentry_status.py'...\n"}
+[14.177673] (sentry_interface) StdoutLine: {'line': b"Compiling '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/_sentry_vel.py'...\n"}
+[14.187819] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_generator_py.so\n'}
+[14.189360] (sentry_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_generator_py.so" to ""\n'}
+[14.189861] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_generator_cExport.cmake\n'}
+[14.190289] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.190862] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.191413] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.191953] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.192404] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.192736] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_cExport.cmake\n'}
+[14.193055] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.193351] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_generator_cppExport.cmake\n'}
+[14.193666] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.193918] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.194202] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.194540] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.195098] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_cppExport.cmake\n'}
+[14.195531] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.195892] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_generator_pyExport.cmake\n'}
+[14.196178] (sentry_interface) StdoutLine: {'line': b'-- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.201760] (sentry_interface) CommandEnded: {'returncode': 0}
+[14.254580] (sentry_interface) JobEnded: {'identifier': 'sentry_interface', 'rc': 0}
+[14.257275] (serial_setting) JobStarted: {'identifier': 'serial_setting'}
+[14.260596] (-) TimerEvent: {}
+[14.361253] (-) TimerEvent: {}
+[14.461801] (-) TimerEvent: {}
+[14.562406] (-) TimerEvent: {}
+[14.663014] (-) TimerEvent: {}
+[14.763584] (-) TimerEvent: {}
+[14.864154] (-) TimerEvent: {}
+[14.964791] (-) TimerEvent: {}
+[15.065436] (-) TimerEvent: {}
+[15.166044] (-) TimerEvent: {}
+[15.266609] (-) TimerEvent: {}
+[15.367052] (-) TimerEvent: {}
+[15.467587] (-) TimerEvent: {}
+[15.541290] (serial_setting) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/robotega/heaven_slam/build/serial_setting/build', '--no-deps', 'symlink_data'], 'cwd': '/home/robotega/heaven_slam/build/serial_setting', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HTTPS_PROXY': 'http://127.0.0.1:7897/', 'no_proxy': 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1', 'LANGUAGE': 'zh_CN:en_US:en', 'USER': 'robotega', 'LC_TIME': 'zh_CN.UTF-8', 'all_proxy': 'socks://127.0.0.1:7897/', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robotega/heaven_slam/install/sentry_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib', 'HOME': '/home/robotega', 'OLDPWD': '/home/robotega', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,172.29.0.0/16,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1864', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3e690fd77b4e7e6ff76ffad067e30288', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'https_proxy': 'http://127.0.0.1:7897/', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'robotega', 'ALL_PROXY': 'socks://127.0.0.1:7897/', 'http_proxy': 'http://127.0.0.1:7897/', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robotega', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/robotega/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sentry01:@/tmp/.ICE-unix/1864,unix/sentry01:/tmp/.ICE-unix/1864', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1eb6aeb9_e775_4270_b700_77b233627da3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robotega/heaven_slam/install/sentry_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robotega/heaven_slam/build/serial_setting', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3e690fd77b4e7e6ff76ffad067e30288', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotega/heaven_slam/build/serial_setting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotega/heaven_slam/install/serial_setting/lib/python3.10/site-packages:/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HTTP_PROXY': 'http://127.0.0.1:7897/', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/robotega/heaven_slam/install/sentry_interface'}, 'shell': False}
+[15.567760] (-) TimerEvent: {}
+[15.668359] (-) TimerEvent: {}
+[15.768929] (-) TimerEvent: {}
+[15.869509] (-) TimerEvent: {}
+[15.970089] (-) TimerEvent: {}
+[16.070679] (-) TimerEvent: {}
+[16.077841] (serial_setting) StdoutLine: {'line': b'running develop\n'}
+[16.170841] (-) TimerEvent: {}
+[16.271619] (-) TimerEvent: {}
+[16.372203] (-) TimerEvent: {}
+[16.419778] (serial_setting) StdoutLine: {'line': b'running egg_info\n'}
+[16.420268] (serial_setting) StdoutLine: {'line': b'creating serial_setting.egg-info\n'}
+[16.420490] (serial_setting) StdoutLine: {'line': b'writing serial_setting.egg-info/PKG-INFO\n'}
+[16.420896] (serial_setting) StdoutLine: {'line': b'writing dependency_links to serial_setting.egg-info/dependency_links.txt\n'}
+[16.421160] (serial_setting) StdoutLine: {'line': b'writing entry points to serial_setting.egg-info/entry_points.txt\n'}
+[16.421369] (serial_setting) StdoutLine: {'line': b'writing requirements to serial_setting.egg-info/requires.txt\n'}
+[16.421561] (serial_setting) StdoutLine: {'line': b'writing top-level names to serial_setting.egg-info/top_level.txt\n'}
+[16.422014] (serial_setting) StdoutLine: {'line': b"writing manifest file 'serial_setting.egg-info/SOURCES.txt'\n"}
+[16.425453] (serial_setting) StdoutLine: {'line': b"reading manifest file 'serial_setting.egg-info/SOURCES.txt'\n"}
+[16.426702] (serial_setting) StdoutLine: {'line': b"writing manifest file 'serial_setting.egg-info/SOURCES.txt'\n"}
+[16.429662] (serial_setting) StdoutLine: {'line': b'running build_ext\n'}
+[16.430238] (serial_setting) StdoutLine: {'line': b'Creating /home/robotega/heaven_slam/install/serial_setting/lib/python3.10/site-packages/serial-setting.egg-link (link to .)\n'}
+[16.431855] (serial_setting) StdoutLine: {'line': b'Installing yaw_data_get script to /home/robotega/heaven_slam/install/serial_setting/lib/serial_setting\n'}
+[16.432397] (serial_setting) StdoutLine: {'line': b'\n'}
+[16.432788] (serial_setting) StdoutLine: {'line': b'Installed /home/robotega/heaven_slam/build/serial_setting\n'}
+[16.433132] (serial_setting) StdoutLine: {'line': b'running symlink_data\n'}
+[16.433479] (serial_setting) StdoutLine: {'line': b'creating /home/robotega/heaven_slam/install/serial_setting/share/ament_index\n'}
+[16.433821] (serial_setting) StdoutLine: {'line': b'creating /home/robotega/heaven_slam/install/serial_setting/share/ament_index/resource_index\n'}
+[16.434064] (serial_setting) StdoutLine: {'line': b'creating /home/robotega/heaven_slam/install/serial_setting/share/ament_index/resource_index/packages\n'}
+[16.434293] (serial_setting) StdoutLine: {'line': b'symbolically linking /home/robotega/heaven_slam/build/serial_setting/resource/serial_setting -> /home/robotega/heaven_slam/install/serial_setting/share/ament_index/resource_index/packages\n'}
+[16.434553] (serial_setting) StdoutLine: {'line': b'symbolically linking /home/robotega/heaven_slam/build/serial_setting/package.xml -> /home/robotega/heaven_slam/install/serial_setting/share/serial_setting\n'}
+[16.434790] (serial_setting) StdoutLine: {'line': b'creating /home/robotega/heaven_slam/install/serial_setting/share/serial_setting/config\n'}
+[16.435010] (serial_setting) StdoutLine: {'line': b'symbolically linking /home/robotega/heaven_slam/build/serial_setting/config/serial_paras.yaml -> /home/robotega/heaven_slam/install/serial_setting/share/serial_setting/config\n'}
+[16.472420] (-) TimerEvent: {}
+[16.515778] (serial_setting) CommandEnded: {'returncode': 0}
+[16.540326] (serial_setting) JobEnded: {'identifier': 'serial_setting', 'rc': 0}
+[16.542102] (-) EventReactorShutdown: {}

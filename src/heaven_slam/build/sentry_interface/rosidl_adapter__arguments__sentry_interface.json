@@ -1,0 +1,8 @@
+{
+  "package_name": "sentry_interface",
+  "non_idl_tuples": [
+    "/home/robotega/heaven_slam/src/sentry_interface:msg/SentryStatus.msg",
+    "/home/robotega/heaven_slam/src/sentry_interface:action/ActionControl.action",
+    "/home/robotega/heaven_slam/src/sentry_interface:msg/SentryVel.msg"
+  ]
+}

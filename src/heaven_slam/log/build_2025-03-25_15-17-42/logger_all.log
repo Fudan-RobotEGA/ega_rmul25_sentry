@@ -1,0 +1,208 @@
+[0.226s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.226s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff84439b40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff844396c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff844396c0>>)
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.576s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/speaker/heaven_slam'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extension 'ignore_ament_install'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extensions ['colcon_pkg']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extension 'colcon_pkg'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extensions ['colcon_meta']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extension 'colcon_meta'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extensions ['ros']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extension 'ros'
+[0.609s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chassis_ctr' with type 'ros.ament_python' and name 'chassis_ctr'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extension 'ignore'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extension 'ignore_ament_install'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extensions ['colcon_pkg']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extension 'colcon_pkg'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extension 'ros'
+[0.612s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sentry_interface' with type 'ros.ament_cmake' and name 'sentry_interface'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extension 'ros'
+[0.614s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_setting' with type 'ros.ament_python' and name 'serial_setting'
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.664s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/speaker/pb_rmsimulation/install
+[0.665s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/speaker/heaven_ws/install
+[0.666s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/speaker/ws_livox/install
+[0.669s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 339 installed packages in /opt/ros/humble
+[0.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'cmake_target' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'cmake_clean_first' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'cmake_force_configure' from command line to 'False'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'ament_cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.792s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.793s] DEBUG:colcon.colcon_core.verb:Building package 'chassis_ctr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/speaker/heaven_slam/build/chassis_ctr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/speaker/heaven_slam/install/chassis_ctr', 'merge_install': False, 'path': '/home/speaker/heaven_slam/src/chassis_ctr', 'symlink_install': True, 'test_result_base': None}
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'cmake_args' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'cmake_target' from command line to 'None'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.793s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.794s] DEBUG:colcon.colcon_core.verb:Building package 'sentry_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/speaker/heaven_slam/build/sentry_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/speaker/heaven_slam/install/sentry_interface', 'merge_install': False, 'path': '/home/speaker/heaven_slam/src/sentry_interface', 'symlink_install': True, 'test_result_base': None}
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'cmake_args' from command line to 'None'
+[0.794s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'cmake_target' from command line to 'None'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'cmake_clean_cache' from command line to 'False'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'cmake_clean_first' from command line to 'False'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'cmake_force_configure' from command line to 'False'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'ament_cmake_args' from command line to 'None'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'catkin_cmake_args' from command line to 'None'
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.795s] DEBUG:colcon.colcon_core.verb:Building package 'serial_setting' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/speaker/heaven_slam/build/serial_setting', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/speaker/heaven_slam/install/serial_setting', 'merge_install': False, 'path': '/home/speaker/heaven_slam/src/serial_setting', 'symlink_install': True, 'test_result_base': None}
+[0.795s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.797s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.798s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/speaker/heaven_slam/src/sentry_interface' with build type 'ament_cmake'
+[0.798s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/speaker/heaven_slam/src/sentry_interface'
+[0.803s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.803s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.814s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/speaker/heaven_slam/src/chassis_ctr' with build type 'ament_python'
+[0.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('chassis_ctr', 'ament_prefix_path')
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/speaker/heaven_slam/install/chassis_ctr/share/chassis_ctr/hook/ament_prefix_path.ps1'
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/speaker/heaven_slam/install/chassis_ctr/share/chassis_ctr/hook/ament_prefix_path.dsv'
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/speaker/heaven_slam/install/chassis_ctr/share/chassis_ctr/hook/ament_prefix_path.sh'
+[0.819s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.819s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/speaker/heaven_slam/build/sentry_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/speaker/heaven_ws/install/chassis_ctr:/opt/ros/humble /usr/bin/cmake --build /home/speaker/heaven_slam/build/sentry_interface -- -j6 -l6
+[1.397s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/speaker/heaven_slam/src/chassis_ctr'
+[1.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/speaker/heaven_slam/build/sentry_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/speaker/heaven_ws/install/chassis_ctr:/opt/ros/humble /usr/bin/cmake --build /home/speaker/heaven_slam/build/sentry_interface -- -j6 -l6
+[1.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/speaker/heaven_slam/build/sentry_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/speaker/heaven_ws/install/chassis_ctr:/opt/ros/humble /usr/bin/cmake --install /home/speaker/heaven_slam/build/sentry_interface
+[1.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sentry_interface)
+[1.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/speaker/heaven_slam/build/sentry_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/speaker/heaven_ws/install/chassis_ctr:/opt/ros/humble /usr/bin/cmake --install /home/speaker/heaven_slam/build/sentry_interface
+[1.917s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface' for CMake module files
+[1.919s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface' for CMake config files
+[1.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('sentry_interface', 'cmake_prefix_path')
+[1.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/hook/cmake_prefix_path.ps1'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/hook/cmake_prefix_path.dsv'
+[1.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/hook/cmake_prefix_path.sh'
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface/lib'
+[1.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('sentry_interface', 'ld_library_path_lib')
+[1.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/hook/ld_library_path_lib.ps1'
+[1.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/hook/ld_library_path_lib.dsv'
+[1.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/hook/ld_library_path_lib.sh'
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface/bin'
+[1.937s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface/lib/pkgconfig/sentry_interface.pc'
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface/lib/python3.10/site-packages'
+[1.939s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface/bin'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/package.ps1'
+[1.943s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/package.dsv'
+[1.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/package.sh'
+[1.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/package.bash'
+[1.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/package.zsh'
+[1.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/speaker/heaven_slam/install/sentry_interface/share/colcon-core/packages/sentry_interface)
+[1.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sentry_interface)
+[1.955s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface' for CMake module files
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface' for CMake config files
+[1.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('sentry_interface', 'cmake_prefix_path')
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/hook/cmake_prefix_path.ps1'
+[1.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/hook/cmake_prefix_path.dsv'
+[1.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/hook/cmake_prefix_path.sh'
+[1.964s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface/lib'
+[1.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('sentry_interface', 'ld_library_path_lib')
+[1.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/hook/ld_library_path_lib.ps1'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/hook/ld_library_path_lib.dsv'
+[1.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/hook/ld_library_path_lib.sh'
+[1.968s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface/bin'
+[1.968s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface/lib/pkgconfig/sentry_interface.pc'
+[1.969s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface/lib/python3.10/site-packages'
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/home/speaker/heaven_slam/install/sentry_interface/bin'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/package.ps1'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/package.dsv'
+[1.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/package.sh'
+[1.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/package.bash'
+[1.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/speaker/heaven_slam/install/sentry_interface/share/sentry_interface/package.zsh'
+[1.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/speaker/heaven_slam/install/sentry_interface/share/colcon-core/packages/sentry_interface)
+[1.978s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/speaker/heaven_slam/src/serial_setting' with build type 'ament_python'
+[1.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_setting', 'ament_prefix_path')
+[1.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/speaker/heaven_slam/install/serial_setting/share/serial_setting/hook/ament_prefix_path.ps1'
+[1.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/speaker/heaven_slam/install/serial_setting/share/serial_setting/hook/ament_prefix_path.dsv'
+[1.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/speaker/heaven_slam/install/serial_setting/share/serial_setting/hook/ament_prefix_path.sh'
+[1.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.985s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.626s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with 'Command '['/usr/bin/python3', '-c', 'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))']' returned non-zero exit status 1.'
+[2.627s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.646s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.692s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/speaker/heaven_slam/install/local_setup.ps1'
+[2.697s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/speaker/heaven_slam/install/_local_setup_util_ps1.py'
+[2.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/speaker/heaven_slam/install/setup.ps1'
+[2.709s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/speaker/heaven_slam/install/local_setup.sh'
+[2.711s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/speaker/heaven_slam/install/_local_setup_util_sh.py'
+[2.713s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/speaker/heaven_slam/install/setup.sh'
+[2.720s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/speaker/heaven_slam/install/local_setup.bash'
+[2.722s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/speaker/heaven_slam/install/setup.bash'
+[2.729s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/speaker/heaven_slam/install/local_setup.zsh'
+[2.730s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/speaker/heaven_slam/install/setup.zsh'

@@ -1,0 +1,1 @@
+Invoking command in '/home/speaker/heaven_slam/build/sentry_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/speaker/heaven_ws/install/chassis_ctr:/opt/ros/humble /usr/bin/cmake /home/speaker/heaven_slam/src/sentry_interface -DCMAKE_INSTALL_PREFIX=/home/speaker/heaven_slam/install/sentry_interface

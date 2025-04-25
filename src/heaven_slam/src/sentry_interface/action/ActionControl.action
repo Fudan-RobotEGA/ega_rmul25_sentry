@@ -1,0 +1,16 @@
+#goal:控制机器人的行为模式，需给出目标点。
+float32[2] chassic_target #导航目标点，参数：x,y
+float32 yaw_angel #yaw的角度，参数：角度
+uint32 status #机器人当前状态：进攻、撤退、防守、补给
+uint32 STATUS_ATTACKING = 3
+uint32 STATUS_RETREATING = 4
+uint32 STATUS_DEFENDING = 5
+uint32 STATUS_HEALING = 6
+---
+#result
+bool success #获取是否执行完成的信号  
+---
+#feedback
+float32[2] current_pose #当前位置
+uint32 current_status #当前状态
+

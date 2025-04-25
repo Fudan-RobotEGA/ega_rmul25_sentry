@@ -1,0 +1,6 @@
+Invoking command in '/home/robotega/heaven_slam/build/sentry_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotega/heaven_slam/src/sentry_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotega/heaven_slam/install/sentry_interface
+Invoked command in '/home/robotega/heaven_slam/build/sentry_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotega/heaven_slam/src/sentry_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotega/heaven_slam/install/sentry_interface
+Invoking command in '/home/robotega/heaven_slam/build/sentry_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotega/heaven_slam/build/sentry_interface -- -j8 -l8
+Invoked command in '/home/robotega/heaven_slam/build/sentry_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotega/heaven_slam/build/sentry_interface -- -j8 -l8
+Invoking command in '/home/robotega/heaven_slam/build/sentry_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotega/heaven_slam/build/sentry_interface
+Invoked command in '/home/robotega/heaven_slam/build/sentry_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotega/heaven_slam/build/sentry_interface

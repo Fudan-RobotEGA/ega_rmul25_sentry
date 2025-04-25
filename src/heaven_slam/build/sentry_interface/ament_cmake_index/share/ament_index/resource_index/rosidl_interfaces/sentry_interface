@@ -1,0 +1,6 @@
+action/ActionControl.action
+action/ActionControl.idl
+msg/SentryStatus.idl
+msg/SentryStatus.msg
+msg/SentryVel.idl
+msg/SentryVel.msg

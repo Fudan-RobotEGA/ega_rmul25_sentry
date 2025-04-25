@@ -1,0 +1,258 @@
+[0.219s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.219s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff85218730>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff85218250>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff85218250>>)
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.569s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotega/heaven_slam'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extensions ['colcon_pkg']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/chassis_ctr) by extension 'ros'
+[0.604s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chassis_ctr' with type 'ros.ament_python' and name 'chassis_ctr'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extension 'ignore'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extension 'ignore_ament_install'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extensions ['colcon_pkg']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/sentry_interface) by extension 'ros'
+[0.606s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sentry_interface' with type 'ros.ament_cmake' and name 'sentry_interface'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extension 'ignore_ament_install'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extension 'colcon_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_setting) by extension 'ros'
+[0.609s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_setting' with type 'ros.ament_python' and name 'serial_setting'
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.609s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.684s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 373 installed packages in /opt/ros/humble
+[0.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'cmake_target' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'cmake_clean_first' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'cmake_force_configure' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'ament_cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'chassis_ctr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.786s] DEBUG:colcon.colcon_core.verb:Building package 'chassis_ctr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotega/heaven_slam/build/chassis_ctr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotega/heaven_slam/install/chassis_ctr', 'merge_install': False, 'path': '/home/robotega/heaven_slam/src/chassis_ctr', 'symlink_install': True, 'test_result_base': None}
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'cmake_target' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'sentry_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.787s] DEBUG:colcon.colcon_core.verb:Building package 'sentry_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotega/heaven_slam/build/sentry_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotega/heaven_slam/install/sentry_interface', 'merge_install': False, 'path': '/home/robotega/heaven_slam/src/sentry_interface', 'symlink_install': True, 'test_result_base': None}
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'cmake_args' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'cmake_target' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'cmake_clean_cache' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'cmake_clean_first' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'cmake_force_configure' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'ament_cmake_args' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'catkin_cmake_args' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'serial_setting' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.788s] DEBUG:colcon.colcon_core.verb:Building package 'serial_setting' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotega/heaven_slam/build/serial_setting', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotega/heaven_slam/install/serial_setting', 'merge_install': False, 'path': '/home/robotega/heaven_slam/src/serial_setting', 'symlink_install': True, 'test_result_base': None}
+[0.789s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.792s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotega/heaven_slam/src/sentry_interface' with build type 'ament_cmake'
+[0.792s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotega/heaven_slam/src/sentry_interface'
+[0.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.797s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.803s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotega/heaven_slam/src/chassis_ctr' with build type 'ament_python'
+[0.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('chassis_ctr', 'ament_prefix_path')
+[0.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/hook/ament_prefix_path.ps1'
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/hook/ament_prefix_path.dsv'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/hook/ament_prefix_path.sh'
+[0.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotega/heaven_slam/build/sentry_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotega/heaven_slam/src/sentry_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotega/heaven_slam/install/sentry_interface
+[1.367s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotega/heaven_slam/src/chassis_ctr'
+[1.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotega/heaven_slam/build/chassis_ctr': PYTHONPATH=/home/robotega/heaven_slam/build/chassis_ctr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotega/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robotega/heaven_slam/build/chassis_ctr/build --no-deps symlink_data
+[3.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('chassis_ctr', 'pythonpath_develop')
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/build/chassis_ctr/share/chassis_ctr/hook/pythonpath_develop.ps1'
+[3.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotega/heaven_slam/build/chassis_ctr' returned '0': PYTHONPATH=/home/robotega/heaven_slam/build/chassis_ctr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotega/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robotega/heaven_slam/build/chassis_ctr/build --no-deps symlink_data
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotega/heaven_slam/build/chassis_ctr/share/chassis_ctr/hook/pythonpath_develop.dsv'
+[3.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/build/chassis_ctr/share/chassis_ctr/hook/pythonpath_develop.sh'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/chassis_ctr' for CMake module files
+[3.115s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/chassis_ctr' for CMake config files
+[3.117s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/chassis_ctr/lib'
+[3.118s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/chassis_ctr/bin'
+[3.118s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/chassis_ctr/lib/pkgconfig/chassis_ctr.pc'
+[3.119s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages'
+[3.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('chassis_ctr', 'pythonpath')
+[3.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/hook/pythonpath.ps1'
+[3.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/hook/pythonpath.dsv'
+[3.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/hook/pythonpath.sh'
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/chassis_ctr/bin'
+[3.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chassis_ctr)
+[3.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/package.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/package.dsv'
+[3.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/package.sh'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/package.bash'
+[3.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/chassis_ctr/share/chassis_ctr/package.zsh'
+[3.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotega/heaven_slam/install/chassis_ctr/share/colcon-core/packages/chassis_ctr)
+[4.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotega/heaven_slam/build/sentry_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotega/heaven_slam/src/sentry_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotega/heaven_slam/install/sentry_interface
+[4.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotega/heaven_slam/build/sentry_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotega/heaven_slam/build/sentry_interface -- -j8 -l8
+[13.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotega/heaven_slam/build/sentry_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotega/heaven_slam/build/sentry_interface -- -j8 -l8
+[13.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotega/heaven_slam/build/sentry_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotega/heaven_slam/build/sentry_interface
+[14.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sentry_interface)
+[14.994s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface' for CMake module files
+[14.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotega/heaven_slam/build/sentry_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotega/heaven_slam/build/sentry_interface
+[14.996s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface' for CMake config files
+[14.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('sentry_interface', 'cmake_prefix_path')
+[14.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/hook/cmake_prefix_path.ps1'
+[15.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/hook/cmake_prefix_path.dsv'
+[15.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/hook/cmake_prefix_path.sh'
+[15.003s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface/lib'
+[15.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('sentry_interface', 'ld_library_path_lib')
+[15.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/hook/ld_library_path_lib.ps1'
+[15.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/hook/ld_library_path_lib.dsv'
+[15.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/hook/ld_library_path_lib.sh'
+[15.008s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface/bin'
+[15.008s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface/lib/pkgconfig/sentry_interface.pc'
+[15.009s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface/lib/python3.10/site-packages'
+[15.010s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface/bin'
+[15.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.ps1'
+[15.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.dsv'
+[15.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.sh'
+[15.014s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.bash'
+[15.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.zsh'
+[15.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotega/heaven_slam/install/sentry_interface/share/colcon-core/packages/sentry_interface)
+[15.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sentry_interface)
+[15.020s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface' for CMake module files
+[15.022s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface' for CMake config files
+[15.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('sentry_interface', 'cmake_prefix_path')
+[15.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/hook/cmake_prefix_path.ps1'
+[15.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/hook/cmake_prefix_path.dsv'
+[15.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/hook/cmake_prefix_path.sh'
+[15.030s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface/lib'
+[15.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('sentry_interface', 'ld_library_path_lib')
+[15.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/hook/ld_library_path_lib.ps1'
+[15.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/hook/ld_library_path_lib.dsv'
+[15.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/hook/ld_library_path_lib.sh'
+[15.034s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface/bin'
+[15.034s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface/lib/pkgconfig/sentry_interface.pc'
+[15.035s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface/lib/python3.10/site-packages'
+[15.036s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/sentry_interface/bin'
+[15.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.ps1'
+[15.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.dsv'
+[15.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.sh'
+[15.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.bash'
+[15.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.zsh'
+[15.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotega/heaven_slam/install/sentry_interface/share/colcon-core/packages/sentry_interface)
+[15.045s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotega/heaven_slam/src/serial_setting' with build type 'ament_python'
+[15.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_setting', 'ament_prefix_path')
+[15.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/serial_setting/share/serial_setting/hook/ament_prefix_path.ps1'
+[15.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotega/heaven_slam/install/serial_setting/share/serial_setting/hook/ament_prefix_path.dsv'
+[15.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/serial_setting/share/serial_setting/hook/ament_prefix_path.sh'
+[15.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.052s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.611s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotega/heaven_slam/src/serial_setting'
+[15.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotega/heaven_slam/build/serial_setting': AMENT_PREFIX_PATH=/home/robotega/heaven_slam/install/sentry_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotega/heaven_slam/install/sentry_interface LD_LIBRARY_PATH=/home/robotega/heaven_slam/install/sentry_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotega/heaven_slam/build/serial_setting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotega/heaven_slam/install/serial_setting/lib/python3.10/site-packages:/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robotega/heaven_slam/build/serial_setting/build --no-deps symlink_data
+[17.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_setting', 'pythonpath_develop')
+[17.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/build/serial_setting/share/serial_setting/hook/pythonpath_develop.ps1'
+[17.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotega/heaven_slam/build/serial_setting' returned '0': AMENT_PREFIX_PATH=/home/robotega/heaven_slam/install/sentry_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotega/heaven_slam/install/sentry_interface LD_LIBRARY_PATH=/home/robotega/heaven_slam/install/sentry_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotega/heaven_slam/build/serial_setting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robotega/heaven_slam/install/serial_setting/lib/python3.10/site-packages:/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robotega/heaven_slam/build/serial_setting/build --no-deps symlink_data
+[17.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotega/heaven_slam/build/serial_setting/share/serial_setting/hook/pythonpath_develop.dsv'
+[17.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/build/serial_setting/share/serial_setting/hook/pythonpath_develop.sh'
+[17.314s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/serial_setting' for CMake module files
+[17.315s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/serial_setting' for CMake config files
+[17.317s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/serial_setting/lib'
+[17.317s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/serial_setting/bin'
+[17.317s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/serial_setting/lib/pkgconfig/serial_setting.pc'
+[17.318s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/serial_setting/lib/python3.10/site-packages'
+[17.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_setting', 'pythonpath')
+[17.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/serial_setting/share/serial_setting/hook/pythonpath.ps1'
+[17.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotega/heaven_slam/install/serial_setting/share/serial_setting/hook/pythonpath.dsv'
+[17.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotega/heaven_slam/install/serial_setting/share/serial_setting/hook/pythonpath.sh'
+[17.323s] Level 1:colcon.colcon_core.environment:checking '/home/robotega/heaven_slam/install/serial_setting/bin'
+[17.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_setting)
+[17.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/serial_setting/share/serial_setting/package.ps1'
+[17.326s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotega/heaven_slam/install/serial_setting/share/serial_setting/package.dsv'
+[17.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/serial_setting/share/serial_setting/package.sh'
+[17.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/serial_setting/share/serial_setting/package.bash'
+[17.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotega/heaven_slam/install/serial_setting/share/serial_setting/package.zsh'
+[17.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotega/heaven_slam/install/serial_setting/share/colcon-core/packages/serial_setting)
+[17.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.332s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.345s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.345s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.345s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.377s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotega/heaven_slam/install/local_setup.ps1'
+[17.381s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotega/heaven_slam/install/_local_setup_util_ps1.py'
+[17.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotega/heaven_slam/install/setup.ps1'
+[17.386s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotega/heaven_slam/install/local_setup.sh'
+[17.387s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotega/heaven_slam/install/_local_setup_util_sh.py'
+[17.388s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotega/heaven_slam/install/setup.sh'
+[17.390s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotega/heaven_slam/install/local_setup.bash'
+[17.391s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotega/heaven_slam/install/setup.bash'
+[17.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotega/heaven_slam/install/local_setup.zsh'
+[17.393s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotega/heaven_slam/install/setup.zsh'

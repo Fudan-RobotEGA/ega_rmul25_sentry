@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from sentry_interface/action/ActionControl.action
+// generated code does not contain a copyright notice
+
+
+module sentry_interface {
+  module action {
+    typedef float float__2[2];
+    module ActionControl_Goal_Constants {
+      const uint32 STATUS_ATTACKING = 3;
+      const uint32 STATUS_RETREATING = 4;
+      const uint32 STATUS_DEFENDING = 5;
+      const uint32 STATUS_HEALING = 6;
+    };
+    @verbatim (language="comment", text=
+      "goal:控制机器人的行为模式，需给出目标点。")
+    struct ActionControl_Goal {
+      @verbatim (language="comment", text=
+        "导航目标点，参数：x,y")
+      float__2 chassic_target;
+
+      @verbatim (language="comment", text=
+        "yaw的角度，参数：角度")
+      float yaw_angel;
+
+      @verbatim (language="comment", text=
+        "机器人当前状态：进攻、撤退、防守、补给")
+      uint32 status;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct ActionControl_Result {
+      @verbatim (language="comment", text=
+        "获取是否执行完成的信号")
+      boolean success;
+    };
+    typedef float float__2[2];
+    @verbatim (language="comment", text=
+      "feedback")
+    struct ActionControl_Feedback {
+      @verbatim (language="comment", text=
+        "当前位置")
+      float__2 current_pose;
+
+      @verbatim (language="comment", text=
+        "当前状态")
+      uint32 current_status;
+    };
+  };
+};

@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000335] (-) JobUnselected: {'identifier': 'sentry_interface'}
+[0.000512] (-) JobUnselected: {'identifier': 'serial_setting'}
+[0.000573] (chassis_ctr) JobQueued: {'identifier': 'chassis_ctr', 'dependencies': OrderedDict()}
+[0.000626] (chassis_ctr) JobStarted: {'identifier': 'chassis_ctr'}
+[0.096542] (-) TimerEvent: {}
+[0.197115] (-) TimerEvent: {}
+[0.297730] (-) TimerEvent: {}
+[0.398332] (-) TimerEvent: {}
+[0.498939] (-) TimerEvent: {}
+[0.599565] (-) TimerEvent: {}
+[0.700180] (-) TimerEvent: {}
+[0.800841] (-) TimerEvent: {}
+[0.901486] (-) TimerEvent: {}
+[1.002069] (-) TimerEvent: {}
+[1.102653] (-) TimerEvent: {}
+[1.203313] (-) TimerEvent: {}
+[1.303966] (-) TimerEvent: {}
+[1.404578] (-) TimerEvent: {}
+[1.505227] (-) TimerEvent: {}
+[1.605842] (-) TimerEvent: {}
+[1.706457] (-) TimerEvent: {}
+[1.807100] (-) TimerEvent: {}
+[1.907761] (-) TimerEvent: {}
+[2.008413] (-) TimerEvent: {}
+[2.109007] (-) TimerEvent: {}
+[2.209689] (-) TimerEvent: {}
+[2.310319] (-) TimerEvent: {}
+[2.410935] (-) TimerEvent: {}
+[2.511585] (-) TimerEvent: {}
+[2.612961] (-) TimerEvent: {}
+[2.713640] (-) TimerEvent: {}
+[2.814289] (-) TimerEvent: {}
+[2.914922] (-) TimerEvent: {}
+[3.015560] (-) TimerEvent: {}
+[3.116196] (-) TimerEvent: {}
+[3.216856] (-) TimerEvent: {}
+[3.317499] (-) TimerEvent: {}
+[3.418142] (-) TimerEvent: {}
+[3.518768] (-) TimerEvent: {}
+[3.619397] (-) TimerEvent: {}
+[3.720051] (-) TimerEvent: {}
+[3.820749] (-) TimerEvent: {}
+[3.846799] (chassis_ctr) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/speaker/heaven_slam/build/chassis_ctr/build', '--no-deps', 'symlink_data'], 'cwd': '/home/speaker/heaven_slam/build/chassis_ctr', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en_US:en', 'USER': 'speaker', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/speaker/heaven_slam/install/sentry_interface/lib:/home/speaker/pb_rmsimulation/install/teb_local_planner/lib:/home/speaker/pb_rmsimulation/install/teb_msgs/lib:/home/speaker/pb_rmsimulation/install/pointcloud_to_laserscan/lib:/home/speaker/pb_rmsimulation/install/icp_registration/lib:/home/speaker/pb_rmsimulation/install/fast_lio/lib:/home/speaker/pb_rmsimulation/install/livox_ros_driver2/lib:/home/speaker/pb_rmsimulation/install/linefit_ground_segmentation/lib:/home/speaker/pb_rmsimulation/install/imu_complementary_filter/lib:/home/speaker/pb_rmsimulation/install/fake_vel_transform/lib:/home/speaker/pb_rmsimulation/install/costmap_converter/lib:/home/speaker/pb_rmsimulation/install/costmap_converter_msgs/lib:/usr/local/cuda/lib64:/home/speaker/heaven_ws/install/fast_lio/lib:/home/speaker/ws_livox/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib::/usr/local/lib:/usr/lib:/usr/local/opencv4.10.0/lib', 'HOME': '/home/speaker', 'OLDPWD': '/home/speaker/heaven_slam/src', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.4.3', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'JETSON_MODEL': 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1782', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d926b78c9e46f91e794c274667e28cd7', 'COLORTERM': 'truecolor', 'OPENCV_DIR': '/usr/local/opencv4.10.0', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/speaker/heaven_slam/install:/home/speaker/pb_rmsimulation/install:/home/speaker/heaven_ws/install:/home/speaker/ws_livox/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'speaker', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1420824244926', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/speaker/pb_rmsimulation/install/costmap_converter/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/speaker/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/opencv4.10.0/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1782,unix/ubuntu:/tmp/.ICE-unix/1782', 'GDM_LANG': 'zh_CN', 'PAPERSIZE': 'a4', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ce97b82a_509a_4736_89a1_424356324a99', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/home/speaker/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.118', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/speaker', 'AMENT_PREFIX_PATH': '/home/speaker/heaven_slam/install/serial_setting:/home/speaker/heaven_slam/install/sentry_interface:/home/speaker/heaven_slam/install/for_symlink:/home/speaker/heaven_slam/install/chassis_ctr:/home/speaker/pb_rmsimulation/install/teb_local_planner:/home/speaker/pb_rmsimulation/install/teb_msgs:/home/speaker/pb_rmsimulation/install/rm_navigation:/home/speaker/pb_rmsimulation/install/rm_nav_bringup:/home/speaker/pb_rmsimulation/install/pointcloud_to_laserscan:/home/speaker/pb_rmsimulation/install/point_lio:/home/speaker/pb_rmsimulation/install/pb_rm_simulation:/home/speaker/pb_rmsimulation/install/icp_registration:/home/speaker/pb_rmsimulation/install/fast_lio:/home/speaker/pb_rmsimulation/install/livox_ros_driver2:/home/speaker/pb_rmsimulation/install/linefit_ground_segmentation_ros:/home/speaker/pb_rmsimulation/install/linefit_ground_segmentation:/home/speaker/pb_rmsimulation/install/imu_complementary_filter:/home/speaker/pb_rmsimulation/install/fake_vel_transform:/home/speaker/pb_rmsimulation/install/costmap_converter:/home/speaker/pb_rmsimulation/install/costmap_converter_msgs:/home/speaker/heaven_ws/install/fast_lio:/home/speaker/heaven_ws/install/chassis_ctr:/home/speaker/ws_livox/install/livox_ros_driver2:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/speaker/heaven_slam/build/chassis_ctr', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d926b78c9e46f91e794c274667e28cd7', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/speaker/heaven_slam/build/chassis_ctr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/speaker/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages:/home/speaker/heaven_slam/build/serial_setting:/home/speaker/heaven_slam/install/serial_setting/lib/python3.10/site-packages:/home/speaker/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages:/home/speaker/heaven_slam/build/for_symlink:/home/speaker/heaven_slam/install/for_symlink/lib/python3.10/site-packages:/home/speaker/heaven_slam/build/chassis_ctr:/home/speaker/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages:/home/speaker/pb_rmsimulation/install/teb_msgs/local/lib/python3.10/dist-packages:/home/speaker/pb_rmsimulation/install/fast_lio/local/lib/python3.10/dist-packages:/home/speaker/pb_rmsimulation/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/speaker/pb_rmsimulation/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/home/speaker/heaven_ws/install/fast_lio/local/lib/python3.10/dist-packages:/home/speaker/heaven_ws/build/chassis_ctr:/home/speaker/heaven_ws/install/chassis_ctr/lib/python3.10/site-packages:/home/speaker/ws_livox/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.2', 'CMAKE_PREFIX_PATH': '/home/speaker/heaven_slam/install/sentry_interface:/home/speaker/pb_rmsimulation/install/teb_local_planner:/home/speaker/pb_rmsimulation/install/teb_msgs:/home/speaker/pb_rmsimulation/install/rm_navigation:/home/speaker/pb_rmsimulation/install/rm_nav_bringup:/home/speaker/pb_rmsimulation/install/pointcloud_to_laserscan:/home/speaker/pb_rmsimulation/install/point_lio:/home/speaker/pb_rmsimulation/install/pb_rm_simulation:/home/speaker/pb_rmsimulation/install/icp_registration:/home/speaker/pb_rmsimulation/install/fast_lio:/home/speaker/pb_rmsimulation/install/livox_ros_driver2:/home/speaker/pb_rmsimulation/install/linefit_ground_segmentation_ros:/home/speaker/pb_rmsimulation/install/linefit_ground_segmentation:/home/speaker/pb_rmsimulation/install/imu_complementary_filter:/home/speaker/pb_rmsimulation/install/fake_vel_transform:/home/speaker/pb_rmsimulation/install/costmap_converter:/home/speaker/pb_rmsimulation/install/costmap_converter_msgs:/home/speaker/heaven_ws/install/fast_lio:/home/speaker/ws_livox/install/livox_ros_driver2', 'JETSON_P_NUMBER': 'p3767-0003'}, 'shell': False}
+[3.920948] (-) TimerEvent: {}
+[4.021614] (-) TimerEvent: {}
+[4.122221] (-) TimerEvent: {}
+[4.222861] (-) TimerEvent: {}
+[4.324051] (-) TimerEvent: {}
+[4.424658] (-) TimerEvent: {}
+[4.525298] (-) TimerEvent: {}
+[4.625930] (-) TimerEvent: {}
+[4.726541] (-) TimerEvent: {}
+[4.827169] (-) TimerEvent: {}
+[4.927765] (-) TimerEvent: {}
+[5.028429] (-) TimerEvent: {}
+[5.129027] (-) TimerEvent: {}
+[5.229674] (-) TimerEvent: {}
+[5.330303] (-) TimerEvent: {}
+[5.430979] (-) TimerEvent: {}
+[5.533822] (-) TimerEvent: {}
+[5.634502] (-) TimerEvent: {}
+[5.735177] (-) TimerEvent: {}
+[5.835828] (-) TimerEvent: {}
+[5.936448] (-) TimerEvent: {}
+[5.968156] (chassis_ctr) StdoutLine: {'line': b'running develop\n'}
+[6.036614] (-) TimerEvent: {}
+[6.137252] (-) TimerEvent: {}
+[6.237927] (-) TimerEvent: {}
+[6.338616] (-) TimerEvent: {}
+[6.440377] (-) TimerEvent: {}
+[6.541047] (-) TimerEvent: {}
+[6.641716] (-) TimerEvent: {}
+[6.742544] (-) TimerEvent: {}
+[6.843216] (-) TimerEvent: {}
+[6.943955] (-) TimerEvent: {}
+[7.044633] (-) TimerEvent: {}
+[7.145286] (-) TimerEvent: {}
+[7.245966] (-) TimerEvent: {}
+[7.346649] (-) TimerEvent: {}
+[7.447310] (-) TimerEvent: {}
+[7.524127] (chassis_ctr) StdoutLine: {'line': b'running egg_info\n'}
+[7.524714] (chassis_ctr) StdoutLine: {'line': b'writing chassis_ctr.egg-info/PKG-INFO\n'}
+[7.525873] (chassis_ctr) StdoutLine: {'line': b'writing dependency_links to chassis_ctr.egg-info/dependency_links.txt\n'}
+[7.527148] (chassis_ctr) StdoutLine: {'line': b'writing entry points to chassis_ctr.egg-info/entry_points.txt\n'}
+[7.527678] (chassis_ctr) StdoutLine: {'line': b'writing requirements to chassis_ctr.egg-info/requires.txt\n'}
+[7.528312] (chassis_ctr) StdoutLine: {'line': b'writing top-level names to chassis_ctr.egg-info/top_level.txt\n'}
+[7.540855] (chassis_ctr) StdoutLine: {'line': b"reading manifest file 'chassis_ctr.egg-info/SOURCES.txt'\n"}
+[7.547471] (-) TimerEvent: {}
+[7.550285] (chassis_ctr) StdoutLine: {'line': b"writing manifest file 'chassis_ctr.egg-info/SOURCES.txt'\n"}
+[7.557292] (chassis_ctr) StdoutLine: {'line': b'running build_ext\n'}
+[7.558273] (chassis_ctr) StdoutLine: {'line': b'Creating /home/speaker/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages/chassis-ctr.egg-link (link to .)\n'}
+[7.562765] (chassis_ctr) StdoutLine: {'line': b'Installing chassis_ctr_test_node script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr\n'}
+[7.563402] (chassis_ctr) StdoutLine: {'line': b'Installing cmd_vel_converter script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr\n'}
+[7.564036] (chassis_ctr) StdoutLine: {'line': b'Installing go_to_pose script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr\n'}
+[7.564755] (chassis_ctr) StdoutLine: {'line': b'Installing heaven_nav_client script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr\n'}
+[7.565296] (chassis_ctr) StdoutLine: {'line': b'Installing sentry_ctr script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr\n'}
+[7.565554] (chassis_ctr) StdoutLine: {'line': b'Installing vel_test_node script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr\n'}
+[7.568187] (chassis_ctr) StdoutLine: {'line': b'\n'}
+[7.568609] (chassis_ctr) StdoutLine: {'line': b'Installed /home/speaker/heaven_slam/build/chassis_ctr\n'}
+[7.570978] (chassis_ctr) StdoutLine: {'line': b'running symlink_data\n'}
+[7.647665] (-) TimerEvent: {}
+[7.748407] (-) TimerEvent: {}
+[7.849111] (-) TimerEvent: {}
+[7.864692] (chassis_ctr) CommandEnded: {'returncode': 0}
+[7.957828] (-) TimerEvent: {}
+[8.017522] (chassis_ctr) JobEnded: {'identifier': 'chassis_ctr', 'rc': 0}
+[8.020335] (-) EventReactorShutdown: {}

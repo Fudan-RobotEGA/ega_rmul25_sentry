@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating for_symlink.egg-info
+writing for_symlink.egg-info/PKG-INFO
+writing dependency_links to for_symlink.egg-info/dependency_links.txt
+writing entry points to for_symlink.egg-info/entry_points.txt
+writing requirements to for_symlink.egg-info/requires.txt
+writing top-level names to for_symlink.egg-info/top_level.txt
+writing manifest file 'for_symlink.egg-info/SOURCES.txt'
+reading manifest file 'for_symlink.egg-info/SOURCES.txt'
+writing manifest file 'for_symlink.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/speaker/heaven_slam/install/for_symlink/lib/python3.10/site-packages/for-symlink.egg-link (link to .)
+
+Installed /home/speaker/heaven_slam/build/for_symlink
+running symlink_data
+creating /home/speaker/heaven_slam/install/for_symlink/share/ament_index
+creating /home/speaker/heaven_slam/install/for_symlink/share/ament_index/resource_index
+creating /home/speaker/heaven_slam/install/for_symlink/share/ament_index/resource_index/packages
+symbolically linking /home/speaker/heaven_slam/build/for_symlink/resource/for_symlink -> /home/speaker/heaven_slam/install/for_symlink/share/ament_index/resource_index/packages
+symbolically linking /home/speaker/heaven_slam/build/for_symlink/package.xml -> /home/speaker/heaven_slam/install/for_symlink/share/for_symlink

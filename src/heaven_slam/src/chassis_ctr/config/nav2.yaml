@@ -1,0 +1,37 @@
+#nav2模式
+#比赛设置
+game_mode: False #是否为比赛模式，true为是，否则为测试用地图
+
+#策略参数
+action_mode: True #是否为主动战术，主动战术：前压到中心增益点，监视战术：在靠近己方的区域站点驻守
+retreat_hp: 120 #触发撤退的hp
+hold_on_time: 280 #若为主动模式，当比赛时间超过此时间时不再撤退
+
+#地图整体参数
+rot_angle: 0 #坐标系旋转角度
+
+#比赛地图参数
+game_map:
+  gain_target_map: [5.5 , 3.5] #设置的增益点goal
+  supply_target_map: [0.5 , 1.5] #补给点goal
+  monitor_pos_map: [5 , 1] #监视模式下驻守位置
+  begin_pos_map: [0.7 , 1.7] #起点位置，用于与odom坐标叠加生成map坐标
+  supply_pos_map: [0.5 , 1] #补给点位置
+  gain_pos_map: [6 , 4] #增益点位置
+
+
+#测试用的地图的参数（401）
+test_map:
+  gain_target_map: [2 , 0] #设置的增益点goal
+  supply_target_map: [0.5 , 1.5] #补给点goal
+  monitor_pos_map: [5 , 1] #监视模式下驻守位置
+  begin_pos_map: [0.7 , 1.7] #起点位置，用于与odom坐标叠加生成map坐标
+  supply_pos_map: [0.5 , 1] #补给点位置
+  gain_pos_map: [2 , 0] #增益点位置
+
+#运动参数
+area_gain_epsilon: 0.15 #增益区判断精度
+area_supply_epsilon: 0.15
+speed_default: 0.1 #默认速度
+vel_z_retreat: 5 #撤退时的小陀螺速度
+vel_z_defend: 10 #防御时的小陀螺速度

@@ -1,0 +1,24 @@
+[1.293s] Invoking command in '/home/speaker/heaven_slam/build/chassis_ctr': PYTHONPATH=/home/speaker/heaven_slam/build/chassis_ctr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/speaker/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/speaker/heaven_slam/build/chassis_ctr/build --no-deps symlink_data
+[1.840s] running develop
+[2.174s] running egg_info
+[2.175s] writing chassis_ctr.egg-info/PKG-INFO
+[2.175s] writing dependency_links to chassis_ctr.egg-info/dependency_links.txt
+[2.175s] writing entry points to chassis_ctr.egg-info/entry_points.txt
+[2.176s] writing requirements to chassis_ctr.egg-info/requires.txt
+[2.176s] writing top-level names to chassis_ctr.egg-info/top_level.txt
+[2.180s] reading manifest file 'chassis_ctr.egg-info/SOURCES.txt'
+[2.182s] writing manifest file 'chassis_ctr.egg-info/SOURCES.txt'
+[2.185s] running build_ext
+[2.185s] Creating /home/speaker/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages/chassis-ctr.egg-link (link to .)
+[2.187s] Installing chassis_ctr_test_node script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.187s] Installing cmd_vel_converter script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.188s] Installing heaven_client script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.188s] Installing heaven_server script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.188s] Installing heaven_traj script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.188s] Installing sentry_ctr script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.189s] Installing vel_ctr script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.189s] Installing vel_test_node script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+[2.189s] 
+[2.189s] Installed /home/speaker/heaven_slam/build/chassis_ctr
+[2.189s] running symlink_data
+[2.268s] Invoked command in '/home/speaker/heaven_slam/build/chassis_ctr' returned '0': PYTHONPATH=/home/speaker/heaven_slam/build/chassis_ctr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/speaker/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/speaker/heaven_slam/build/chassis_ctr/build --no-deps symlink_data

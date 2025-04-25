@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing chassis_ctr.egg-info/PKG-INFO
+writing dependency_links to chassis_ctr.egg-info/dependency_links.txt
+writing entry points to chassis_ctr.egg-info/entry_points.txt
+writing requirements to chassis_ctr.egg-info/requires.txt
+writing top-level names to chassis_ctr.egg-info/top_level.txt
+reading manifest file 'chassis_ctr.egg-info/SOURCES.txt'
+writing manifest file 'chassis_ctr.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robotega/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages/chassis-ctr.egg-link (link to .)
+Installing chassis_ctr_test_node script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing cmd_vel_converter script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing go_to_pose script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing heaven_nav_client script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing initial_pose_publisher script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing sentry_ctr script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing vel_test_node script to /home/robotega/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+
+Installed /home/robotega/heaven_slam/build/chassis_ctr
+running symlink_data

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "sentry_interface__py",
+		"source" : "/home/robotega/heaven_slam/build/sentry_interface/sentry_interface__py"
+	}
+}

@@ -1,0 +1,9 @@
+[console_scripts]
+chassis_ctr_test_node = chassis_ctr.for_test:main
+cmd_vel_converter = chassis_ctr.tran_vel:main
+go_to_pose = chassis_ctr.nav2_test:main
+heaven_nav_client = chassis_ctr.sentry_nav_client:main
+initial_pose_publisher = chassis_ctr.test_initpose:main
+sentry_ctr = chassis_ctr.action_ctr:main
+vel_test_node = chassis_ctr.test_vel:main
+

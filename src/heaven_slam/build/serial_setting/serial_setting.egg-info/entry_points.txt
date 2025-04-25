@@ -1,0 +1,3 @@
+[console_scripts]
+yaw_data_get = serial_setting.yaw_data_get:main
+

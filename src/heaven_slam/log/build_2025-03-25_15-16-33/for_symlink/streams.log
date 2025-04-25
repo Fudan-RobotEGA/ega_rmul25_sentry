@@ -1,0 +1,23 @@
+[1.979s] Invoking command in '/home/speaker/heaven_slam/build/for_symlink': PYTHONPATH=/home/speaker/heaven_slam/build/for_symlink/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/speaker/heaven_slam/install/for_symlink/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/speaker/heaven_slam/build/for_symlink/build --no-deps symlink_data
+[2.535s] running develop
+[2.875s] running egg_info
+[2.875s] creating for_symlink.egg-info
+[2.876s] writing for_symlink.egg-info/PKG-INFO
+[2.876s] writing dependency_links to for_symlink.egg-info/dependency_links.txt
+[2.876s] writing entry points to for_symlink.egg-info/entry_points.txt
+[2.877s] writing requirements to for_symlink.egg-info/requires.txt
+[2.877s] writing top-level names to for_symlink.egg-info/top_level.txt
+[2.877s] writing manifest file 'for_symlink.egg-info/SOURCES.txt'
+[2.881s] reading manifest file 'for_symlink.egg-info/SOURCES.txt'
+[2.882s] writing manifest file 'for_symlink.egg-info/SOURCES.txt'
+[2.885s] running build_ext
+[2.885s] Creating /home/speaker/heaven_slam/install/for_symlink/lib/python3.10/site-packages/for-symlink.egg-link (link to .)
+[2.887s] 
+[2.887s] Installed /home/speaker/heaven_slam/build/for_symlink
+[2.888s] running symlink_data
+[2.888s] creating /home/speaker/heaven_slam/install/for_symlink/share/ament_index
+[2.888s] creating /home/speaker/heaven_slam/install/for_symlink/share/ament_index/resource_index
+[2.888s] creating /home/speaker/heaven_slam/install/for_symlink/share/ament_index/resource_index/packages
+[2.888s] symbolically linking /home/speaker/heaven_slam/build/for_symlink/resource/for_symlink -> /home/speaker/heaven_slam/install/for_symlink/share/ament_index/resource_index/packages
+[2.888s] symbolically linking /home/speaker/heaven_slam/build/for_symlink/package.xml -> /home/speaker/heaven_slam/install/for_symlink/share/for_symlink
+[2.975s] Invoked command in '/home/speaker/heaven_slam/build/for_symlink' returned '0': PYTHONPATH=/home/speaker/heaven_slam/build/for_symlink/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/speaker/heaven_slam/install/for_symlink/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/speaker/heaven_slam/build/for_symlink/build --no-deps symlink_data

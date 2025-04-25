@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating chassis_ctr.egg-info
+writing chassis_ctr.egg-info/PKG-INFO
+writing dependency_links to chassis_ctr.egg-info/dependency_links.txt
+writing entry points to chassis_ctr.egg-info/entry_points.txt
+writing requirements to chassis_ctr.egg-info/requires.txt
+writing top-level names to chassis_ctr.egg-info/top_level.txt
+writing manifest file 'chassis_ctr.egg-info/SOURCES.txt'
+reading manifest file 'chassis_ctr.egg-info/SOURCES.txt'
+writing manifest file 'chassis_ctr.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/speaker/heaven_slam/install/chassis_ctr/lib/python3.10/site-packages/chassis-ctr.egg-link (link to .)
+Installing chassis_ctr_test_node script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing cmd_vel_converter script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing heaven_client script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing heaven_server script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing heaven_traj script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing sentry_ctr script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing vel_ctr script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+Installing vel_test_node script to /home/speaker/heaven_slam/install/chassis_ctr/lib/chassis_ctr
+
+Installed /home/speaker/heaven_slam/build/chassis_ctr
+running symlink_data
+creating /home/speaker/heaven_slam/install/chassis_ctr/share/ament_index
+creating /home/speaker/heaven_slam/install/chassis_ctr/share/ament_index/resource_index
+creating /home/speaker/heaven_slam/install/chassis_ctr/share/ament_index/resource_index/packages
+symbolically linking /home/speaker/heaven_slam/build/chassis_ctr/resource/chassis_ctr -> /home/speaker/heaven_slam/install/chassis_ctr/share/ament_index/resource_index/packages
+symbolically linking /home/speaker/heaven_slam/build/chassis_ctr/package.xml -> /home/speaker/heaven_slam/install/chassis_ctr/share/chassis_ctr
+creating /home/speaker/heaven_slam/install/chassis_ctr/share/chassis_ctr/config
+symbolically linking /home/speaker/heaven_slam/build/chassis_ctr/config/action_ctr_params.yaml -> /home/speaker/heaven_slam/install/chassis_ctr/share/chassis_ctr/config

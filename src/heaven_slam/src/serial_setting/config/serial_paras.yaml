@@ -1,0 +1,4 @@
+serial_port: '/dev/ttyACM0' #串口名
+id: 20000 #初始id
+bps: 115200 #串口比特率
+frame_header: b'\xA5' #帧头

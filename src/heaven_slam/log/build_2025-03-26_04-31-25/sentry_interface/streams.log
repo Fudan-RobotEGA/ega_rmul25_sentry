@@ -1,0 +1,257 @@
+[0.029s] Invoking command in '/home/robotega/heaven_slam/build/sentry_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotega/heaven_slam/src/sentry_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotega/heaven_slam/install/sentry_interface
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.241s] -- The CXX compiler identification is GNU 11.4.0
+[0.261s] -- Detecting C compiler ABI info
+[0.399s] -- Detecting C compiler ABI info - done
+[0.424s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.424s] -- Detecting C compile features
+[0.426s] -- Detecting C compile features - done
+[0.434s] -- Detecting CXX compiler ABI info
+[0.589s] -- Detecting CXX compiler ABI info - done
+[0.606s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.606s] -- Detecting CXX compile features
+[0.607s] -- Detecting CXX compile features - done
+[0.614s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.953s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.094s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.175s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.202s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.372s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.132s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.227s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.233s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.296s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.297s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.297s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.297s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.346s] -- Found PythonExtra: .so  
+[3.455s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.513s] -- Added test 'lint_cmake' to check CMake code style
+[3.516s] -- Added test 'xmllint' to check XML markup files
+[3.524s] -- Configuring done
+[3.596s] -- Generating done
+[3.619s] -- Build files have been written to: /home/robotega/heaven_slam/build/sentry_interface
+[3.643s] Invoked command in '/home/robotega/heaven_slam/build/sentry_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotega/heaven_slam/src/sentry_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotega/heaven_slam/install/sentry_interface
+[3.650s] Invoking command in '/home/robotega/heaven_slam/build/sentry_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotega/heaven_slam/build/sentry_interface -- -j8 -l8
+[3.732s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.751s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.766s] [  4%] Built target ament_cmake_python_symlink_sentry_interface
+[4.274s] running egg_info
+[4.275s] creating sentry_interface.egg-info
+[4.276s] writing sentry_interface.egg-info/PKG-INFO
+[4.276s] writing dependency_links to sentry_interface.egg-info/dependency_links.txt
+[4.277s] writing top-level names to sentry_interface.egg-info/top_level.txt
+[4.277s] writing manifest file 'sentry_interface.egg-info/SOURCES.txt'
+[4.281s] reading manifest file 'sentry_interface.egg-info/SOURCES.txt'
+[4.282s] writing manifest file 'sentry_interface.egg-info/SOURCES.txt'
+[4.354s] [  4%] Built target ament_cmake_python_build_sentry_interface_egg
+[5.171s] [ 10%] [32mBuilding C object CMakeFiles/sentry_interface__rosidl_generator_c.dir/rosidl_generator_c/sentry_interface/msg/detail/sentry_status__functions.c.o[0m
+[5.171s] [ 10%] [32mBuilding C object CMakeFiles/sentry_interface__rosidl_generator_c.dir/rosidl_generator_c/sentry_interface/action/detail/action_control__functions.c.o[0m
+[5.171s] [ 10%] [32mBuilding C object CMakeFiles/sentry_interface__rosidl_generator_c.dir/rosidl_generator_c/sentry_interface/msg/detail/sentry_vel__functions.c.o[0m
+[5.305s] [ 10%] Built target sentry_interface__cpp
+[5.326s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.326s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.326s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.485s] [ 19%] [32m[1mLinking C shared library libsentry_interface__rosidl_generator_c.so[0m
+[5.551s] [ 19%] Built target sentry_interface__rosidl_generator_c
+[5.571s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.571s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.571s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.504s] [ 29%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_interface/msg/detail/sentry_status__type_support.cpp.o[0m
+[6.505s] [ 29%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_interface/action/detail/action_control__type_support.cpp.o[0m
+[6.512s] [ 31%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sentry_interface/msg/detail/sentry_vel__type_support.cpp.o[0m
+[6.538s] [ 34%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_interface/msg/sentry_status__type_support.cpp.o[0m
+[6.632s] [ 36%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_interface/msg/sentry_status__type_support.cpp.o[0m
+[6.703s] [ 38%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_interface/action/action_control__type_support.cpp.o[0m
+[6.749s] [ 40%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_interface/msg/detail/dds_fastrtps/sentry_status__type_support.cpp.o[0m
+[6.819s] [ 42%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/sentry_interface/msg/sentry_vel__type_support.cpp.o[0m
+[6.882s] [ 44%] [32mBuilding C object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_interface/msg/detail/sentry_status__type_support.c.o[0m
+[6.894s] [ 46%] [32m[1mLinking CXX shared library libsentry_interface__rosidl_typesupport_c.so[0m
+[6.963s] [ 48%] [32mBuilding C object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_interface/action/detail/action_control__type_support.c.o[0m
+[6.985s] [ 48%] Built target sentry_interface__rosidl_typesupport_c
+[7.018s] [ 51%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_interface/action/action_control__type_support.cpp.o[0m
+[7.041s] [ 53%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_interface/msg/detail/sentry_status__type_support_c.cpp.o[0m
+[7.127s] [ 55%] [32mBuilding C object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sentry_interface/msg/detail/sentry_vel__type_support.c.o[0m
+[7.175s] [ 57%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sentry_interface/msg/sentry_vel__type_support.cpp.o[0m
+[7.204s] [ 59%] [32m[1mLinking C shared library libsentry_interface__rosidl_typesupport_introspection_c.so[0m
+[7.287s] [ 59%] Built target sentry_interface__rosidl_typesupport_introspection_c
+[7.307s] [ 61%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_interface/action/detail/dds_fastrtps/action_control__type_support.cpp.o[0m
+[7.413s] [ 63%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sentry_interface/msg/detail/dds_fastrtps/sentry_vel__type_support.cpp.o[0m
+[7.459s] [ 65%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_interface/action/detail/action_control__type_support_c.cpp.o[0m
+[7.805s] [ 68%] [32mBuilding CXX object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sentry_interface/msg/detail/sentry_vel__type_support_c.cpp.o[0m
+[7.930s] [ 70%] [32m[1mLinking CXX shared library libsentry_interface__rosidl_typesupport_introspection_cpp.so[0m
+[8.096s] [ 70%] Built target sentry_interface__rosidl_typesupport_introspection_cpp
+[8.305s] [ 72%] [32m[1mLinking CXX shared library libsentry_interface__rosidl_typesupport_cpp.so[0m
+[8.382s] [ 72%] Built target sentry_interface__rosidl_typesupport_cpp
+[8.555s] [ 74%] [32m[1mLinking CXX shared library libsentry_interface__rosidl_typesupport_fastrtps_c.so[0m
+[8.683s] [ 76%] [32m[1mLinking CXX shared library libsentry_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.719s] [ 76%] Built target sentry_interface__rosidl_typesupport_fastrtps_c
+[8.830s] [ 76%] Built target sentry_interface__rosidl_typesupport_fastrtps_cpp
+[8.871s] [ 76%] Built target sentry_interface
+[8.914s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.370s] [ 78%] Built target sentry_interface__py
+[11.410s] [ 82%] [32mBuilding C object CMakeFiles/sentry_interface__rosidl_generator_py.dir/rosidl_generator_py/sentry_interface/msg/_sentry_vel_s.c.o[0m
+[11.411s] [ 82%] [32mBuilding C object CMakeFiles/sentry_interface__rosidl_generator_py.dir/rosidl_generator_py/sentry_interface/action/_action_control_s.c.o[0m
+[11.411s] [ 85%] [32mBuilding C object CMakeFiles/sentry_interface__rosidl_generator_py.dir/rosidl_generator_py/sentry_interface/msg/_sentry_status_s.c.o[0m
+[11.751s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/sentry_interface/libsentry_interface__rosidl_generator_py.so[0m
+[11.830s] [ 87%] Built target sentry_interface__rosidl_generator_py
+[11.870s] [ 91%] [32mBuilding C object CMakeFiles/sentry_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sentry_interface/_sentry_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.870s] [ 91%] [32mBuilding C object CMakeFiles/sentry_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sentry_interface/_sentry_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.870s] [ 93%] [32mBuilding C object CMakeFiles/sentry_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sentry_interface/_sentry_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[12.139s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/sentry_interface/sentry_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.150s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sentry_interface/sentry_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.150s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sentry_interface/sentry_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[12.215s] [100%] Built target sentry_interface__rosidl_typesupport_introspection_c__pyext
+[12.231s] [100%] Built target sentry_interface__rosidl_typesupport_c__pyext
+[12.231s] [100%] Built target sentry_interface__rosidl_typesupport_fastrtps_c__pyext
+[12.261s] Invoked command in '/home/robotega/heaven_slam/build/sentry_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotega/heaven_slam/build/sentry_interface -- -j8 -l8
+[12.283s] Invoking command in '/home/robotega/heaven_slam/build/sentry_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotega/heaven_slam/build/sentry_interface
+[12.298s] -- Install configuration: ""
+[12.299s] -- Execute custom install script
+[12.299s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/ament_index/resource_index/rosidl_interfaces/sentry_interface
+[12.317s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/action_control.h
+[12.333s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__functions.h
+[12.351s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__struct.h
+[12.369s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__type_support.h
+[12.387s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__functions.h
+[12.403s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__struct.h
+[12.422s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__type_support.h
+[12.440s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__functions.h
+[12.459s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__struct.h
+[12.477s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__type_support.h
+[12.497s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/rosidl_generator_c__visibility_control.h
+[12.516s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/sentry_status.h
+[12.535s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/sentry_vel.h
+[12.555s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/library_path.sh
+[12.574s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/library_path.dsv
+[12.596s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__rosidl_typesupport_fastrtps_c.h
+[12.612s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__rosidl_typesupport_fastrtps_c.h
+[12.632s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__rosidl_typesupport_fastrtps_c.h
+[12.649s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.669s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__rosidl_typesupport_introspection_c.h
+[12.686s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__rosidl_typesupport_introspection_c.h
+[12.703s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__rosidl_typesupport_introspection_c.h
+[12.723s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.741s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/action_control.hpp
+[12.760s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__builder.hpp
+[12.777s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__struct.hpp
+[12.796s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__traits.hpp
+[12.814s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__type_support.hpp
+[12.832s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__builder.hpp
+[12.851s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__struct.hpp
+[12.869s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__traits.hpp
+[12.887s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__type_support.hpp
+[12.904s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__builder.hpp
+[12.924s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__struct.hpp
+[12.944s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__traits.hpp
+[12.963s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__type_support.hpp
+[12.981s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.001s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/sentry_status.hpp
+[13.018s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/sentry_vel.hpp
+[13.037s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__rosidl_typesupport_fastrtps_cpp.hpp
+[13.053s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__rosidl_typesupport_fastrtps_cpp.hpp
+[13.072s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[13.090s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.111s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/action/detail/action_control__rosidl_typesupport_introspection_cpp.hpp
+[13.129s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_status__rosidl_typesupport_introspection_cpp.hpp
+[13.146s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/include/sentry_interface/sentry_interface/msg/detail/sentry_vel__rosidl_typesupport_introspection_cpp.hpp
+[13.165s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/pythonpath.sh
+[13.183s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/pythonpath.dsv
+[13.202s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[13.221s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[13.238s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[13.255s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface-0.0.0-py3.10.egg-info/top_level.txt
+[13.275s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/__init__.py
+[13.295s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/_sentry_interface_s.ep.rosidl_typesupport_c.c
+[13.312s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/_sentry_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.330s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/_sentry_interface_s.ep.rosidl_typesupport_introspection_c.c
+[13.347s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/action/__init__.py
+[13.365s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/action/_action_control.py
+[13.382s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/action/_action_control_s.c
+[13.400s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/libsentry_interface__rosidl_generator_py.so
+[13.418s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/__init__.py
+[13.434s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/_sentry_status.py
+[13.452s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/_sentry_status_s.c
+[13.471s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/_sentry_vel.py
+[13.489s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/_sentry_vel_s.c
+[13.506s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/sentry_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[13.526s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/sentry_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[13.543s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/sentry_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[13.562s] -- Up-to-date symlink: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/sentry_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[13.563s] -- Up-to-date symlink: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/sentry_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[13.564s] -- Up-to-date symlink: /home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/sentry_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[13.564s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/msg/SentryStatus.idl
+[13.584s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/action/ActionControl.idl
+[13.602s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/msg/SentryVel.idl
+[13.620s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/msg/SentryStatus.msg
+[13.638s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/action/ActionControl.action
+[13.656s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/msg/SentryVel.msg
+[13.674s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/ament_index/resource_index/package_run_dependencies/sentry_interface
+[13.692s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/ament_index/resource_index/parent_prefix_path/sentry_interface
+[13.709s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/ament_prefix_path.sh
+[13.727s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/ament_prefix_path.dsv
+[13.744s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/path.sh
+[13.763s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/environment/path.dsv
+[13.780s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/local_setup.bash
+[13.800s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/local_setup.sh
+[13.819s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/local_setup.zsh
+[13.836s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/local_setup.dsv
+[13.854s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.dsv
+[13.873s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/ament_index/resource_index/packages/sentry_interface
+[13.891s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/rosidl_cmake-extras.cmake
+[13.909s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.929s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.946s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[13.964s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/ament_cmake_export_targets-extras.cmake
+[13.982s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.001s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.020s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interfaceConfig.cmake
+[14.037s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interfaceConfig-version.cmake
+[14.056s] -- Symlinking: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/package.xml
+[14.073s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_generator_c.so
+[14.075s] -- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_generator_c.so" to ""
+[14.076s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_fastrtps_c.so
+[14.077s] -- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[14.077s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_introspection_c.so
+[14.079s] -- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_introspection_c.so" to ""
+[14.079s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_c.so
+[14.080s] -- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_c.so" to ""
+[14.080s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_fastrtps_cpp.so
+[14.081s] -- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.082s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_introspection_cpp.so
+[14.083s] -- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[14.083s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_cpp.so
+[14.085s] -- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_typesupport_cpp.so" to ""
+[14.174s] Listing '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface'...
+[14.174s] Compiling '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/__init__.py'...
+[14.175s] Listing '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/action'...
+[14.175s] Compiling '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/action/__init__.py'...
+[14.175s] Compiling '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/action/_action_control.py'...
+[14.175s] Listing '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg'...
+[14.176s] Compiling '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/__init__.py'...
+[14.176s] Compiling '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/_sentry_status.py'...
+[14.176s] Compiling '/home/robotega/heaven_slam/install/sentry_interface/local/lib/python3.10/dist-packages/sentry_interface/msg/_sentry_vel.py'...
+[14.186s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_generator_py.so
+[14.188s] -- Set runtime path of "/home/robotega/heaven_slam/install/sentry_interface/lib/libsentry_interface__rosidl_generator_py.so" to ""
+[14.188s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_generator_cExport.cmake
+[14.189s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_generator_cExport-noconfig.cmake
+[14.189s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[14.190s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.190s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_introspection_cExport.cmake
+[14.191s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.191s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_cExport.cmake
+[14.191s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_cExport-noconfig.cmake
+[14.192s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_generator_cppExport.cmake
+[14.192s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.192s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.193s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_introspection_cppExport.cmake
+[14.193s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.193s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_cppExport.cmake
+[14.194s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/sentry_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[14.194s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_generator_pyExport.cmake
+[14.195s] -- Installing: /home/robotega/heaven_slam/install/sentry_interface/share/sentry_interface/cmake/export_sentry_interface__rosidl_generator_pyExport-noconfig.cmake
+[14.202s] Invoked command in '/home/robotega/heaven_slam/build/sentry_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotega/heaven_slam/build/sentry_interface
